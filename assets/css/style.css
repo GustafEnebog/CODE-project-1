@@ -76,6 +76,7 @@ main {
     background-color: red;
     /* make main element take up any surplus space to push foter down*/
     flex: 1 0 auto;
+    margin-top: 130.88px;
 }
 
 /* Footer */
