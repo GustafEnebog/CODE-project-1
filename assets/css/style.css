@@ -90,3 +90,48 @@ main {
 footer {
     background-color: orange;
 }
+
+/* Media querys below with smallest devices first and largest at the bottom */
+
+/* Media query: tablets and larger (768 and up) */
+@meida screen and (min-width: 768) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 79px
+    }
+}
+
+/* Large devies (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1 px solid #3a3a3a
+    }
+}
