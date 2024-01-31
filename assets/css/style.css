@@ -98,7 +98,21 @@ main {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: black;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
 }
 
 /* Media querys below with smallest devices first and largest at the bottom */
