@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a
+    color: #3a3a3a;
     /* font-family: 'Lato', sans-serif; */
     /* font-family: 'Spectral SC', serif; */
     font-family: 'Open Sans Regular 400', 'Montserrat', sans-serif;
@@ -34,9 +34,19 @@ header {
     align-items: baseline;
 }
 
+/* Logo for mobile first case (below 768px width)*/
+#logo {
+    line-height: 75px;
+    margin: 0 0.5rem;
+    object-fit: contain;
+    width: 200px;
+    height: 100px;
+    /* object-fit: scale-down; */
+}
+
 header a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 #menu {
@@ -50,13 +60,13 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 irem;
@@ -109,7 +119,7 @@ footer {
     }
 
     #menu > li {
-        padding-left: 1rem
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
@@ -128,13 +138,13 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 79px
+        margin-top: 79px;
     }
 }
 
 /* Large devies (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1 px solid #3a3a3a
+        border-bottom: 1 px solid #3a3a3a;
     }
 }
