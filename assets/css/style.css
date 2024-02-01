@@ -41,6 +41,8 @@ header {
     object-fit: contain;
     width: 200px;
     height: 100px;
+    /* testing line-height to see if it takes away the space above and below the logo */
+    line-height: 0;
     /* object-fit: scale-down; */
 }
 
@@ -101,6 +103,16 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
+}
+
+/* Gallery page */
+#work img {
+    width: 100%
+    line-height: 1em;
+}
+
+#work {
+    line-height: 0;
 }
 
 /* Footer */
