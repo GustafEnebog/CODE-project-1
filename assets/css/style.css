@@ -42,7 +42,7 @@ header {
     width: 200px;
     height: 100px;
     /* testing line-height to see if it takes away the space above and below the logo */
-    line-height: 0;
+    /* line-height: 0; */
     /* object-fit: scale-down; */
 }
 
@@ -134,6 +134,14 @@ footer {
     color: white;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #work {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media querys below with smallest devices first and largest at the bottom */
 
 /* Media query: tablets and larger (768 and up) */
@@ -173,6 +181,11 @@ footer {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
     }
+
+    /* Work */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Large devies (laptops and desktops, 992px and up) */
@@ -180,4 +193,18 @@ footer {
     #menu a:hover {
         border-bottom: 1 px solid #3a3a3a;
     }
+
+    /* Work*/
+    #Work {
+        column-count: 4;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+    
 }
