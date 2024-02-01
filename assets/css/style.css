@@ -96,6 +96,13 @@ main {
     margin-top: 130.88px;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
+}
+
 /* Footer */
 footer {
     background-color: black;
