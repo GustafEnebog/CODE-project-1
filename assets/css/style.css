@@ -105,9 +105,9 @@ main {
     background: url("../images/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
 }
 
-/* Gallery page */
+/* Work (Gallery) */
 #work img {
-    width: 100%
+    width: 600px; /* Love Runnings set to 100% */
     line-height: 1em;
 }
 
