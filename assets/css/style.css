@@ -121,9 +121,9 @@ main {
     background-color: black;
 }
 
-#about-portrait {
+/* styled in index.html instead!? #about-portrait {
     width: 250px;
-}
+} */
 
 /* Footer */
 footer {
