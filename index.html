@@ -14,9 +14,15 @@
 
 <body>
 
-    <!-- Header -->
+    <!-- HEADER -->
     <header>
+        <!-- Enebog logo -->
         <a href="index.html" img="assets/images/enebogart-logo.png"><img id="logo" src="assets/images/enebogart-logo.png" alt="Enebog Art Logo"></a>
+        
+        <!-- the header logo in text (instead for only as an image file) for the sake of screen readers, search engines etc. -->
+        <h1>Enebog Art</h1>
+        
+        <!-- Nav elements -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
@@ -31,9 +37,17 @@
         </nav>
     </header>
 
-    <!-- Main content -->
+    <!-- MAIN CONTENT -->
     <main>
+
+        <!-- Hero introduction -->
         <section id="hero"></section>
+
+        <!-- Work -->
+        <section>
+        <h2 id="work">
+            Work
+        </h2>
         <section id="work">
             <!-- > <h2 class=""hidden-heading>Work</h2>  This was added in the official http test -->
             <div id="still life">
@@ -43,23 +57,6 @@
             </div>
         </section>
         <p>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-            Main Content by INDEX - Main Content by INDEX Main Content by INDEX <br>
-        </p>
-        <h1 id="work">
-            Work
-        </h1>
-        <p>
             Work - Work - Work - Work - Work - Work - Work - Work - <br>
             Work - Work - Work - Work - Work - Work - Work - Work - <br>
             Work - Work - Work - Work - Work - Work - Work - Work - <br>
@@ -91,12 +88,15 @@
             Work - Work - Work - Work - Work - Work - Work - Work - <br>
             Work - Work - Work - Work - Work - Work - Work - Work - <br>
             </p>
+        </section>
+
+        <!-- About -->    
         <section id="about">
         <h1>
             About
         </h1>
         <img id="about-portrait" src="assets/images/about-portrait.jpg" alt="Portrait of Artist" width="200px">
-        <p>
+        <p class="light-on-black-background">
             About - About - About - About - About - About - About - <br>
             About - About - About - About - About - About - About - <br>
             About - About - About - About - About - About - About - <br>
@@ -104,29 +104,56 @@
             About - About - About - About - About - About - About - <br>
             About - About - About - About - About - About - About - <br>
             About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
-            About - About - About - About - About - About - About - <br>
+        </p>
+        </section>
+
+        <!-- Contact form -->
+        <section id="message">
+            <form id="message-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Dont hesitate to contact me!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="buying art">Buying art</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="individual lessons">Individual lessons</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="other">Other</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="send-button">Send!</button>
+            </form>
+            <p>
+                Main Content by Contact - Main Content by Contact Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
+                Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
             </p>
-            </section>
+        </section>
+
     </main>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
         <ul id="social-networks">
             <li>
