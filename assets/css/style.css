@@ -92,7 +92,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: red;
+    /* background-color: red; */
     /* make main element take up any surplus space to push foter down*/
     flex: 1 0 auto;
     margin-top: 130.88px;
@@ -123,7 +123,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: black;
+    background-color: white;
 }
 
 #social-networks {
@@ -137,7 +137,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: white;
+    color: black;
 }
 
 /* Media query: large or landscape phones (576px and up) */
