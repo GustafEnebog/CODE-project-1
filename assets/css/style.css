@@ -115,6 +115,12 @@ main {
     line-height: 0;
 }
 
+/* About */
+#about {
+    width: 250px;
+    background-color: black;
+}
+
 /* Footer */
 footer {
     background-color: black;
