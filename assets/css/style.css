@@ -117,8 +117,12 @@ main {
 
 /* About */
 #about {
-    width: 250px;
+    width: 100%;
     background-color: black;
+}
+
+#about-portrait {
+    width: 250px;
 }
 
 /* Footer */
