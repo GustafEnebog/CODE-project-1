@@ -166,12 +166,12 @@ main {
 
 /* Work (Gallery) */
 #work img {
-    width: 600px; /* Love Runnings set to 100% */
+    width: 100%; /* Love Runnings set to 100% */
     line-height: 1em;
 }
 
 #work {
-    line-height: 0;
+    line-height: 3 px;
 }
 
 /* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
@@ -179,6 +179,23 @@ main {
     width: 100%;
     background-color: black;
 }
+
+
+
+
+#about {
+    width: 100%;
+    background-color: black;
+}
+
+#message {
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
 
 p light-on-black-background {
     /* color:aqua; */
@@ -214,8 +231,8 @@ footer {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #work {
-        column-count: 2;
-        column-gap: 0;
+        column-count: 3;
+        column-gap: 1em;
     }
 }
 
