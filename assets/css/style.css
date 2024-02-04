@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+/* Avoid displaying h1 since this was only for the sake of screen readers, search engines etc. */
+h1 {
+    display: none;
+}
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -21,7 +26,10 @@ body {
     font-family: 'Open Sans Regular 400', 'Montserrat', sans-serif;
 }
 
-/* Header */
+
+
+
+/* XXXXXXXXXX Header XXXXXXXXXX */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -32,11 +40,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
-/* Avoid displaying h1 since this was only for the sake of screen readers, search engines etc. */
-h1 {
-    display: none;
 }
 
 /* Logo for mobile first case (below 768px width)*/
@@ -95,7 +98,10 @@ nav {
     font-size: 2rem;
 }
 
-/* Main content */
+
+
+
+/* XXXXXXXXXX Main content XXXXXXXXXX */
 main {
     /* background-color: red; */
     /* make main element take up any surplus space to push foter down*/
@@ -103,7 +109,52 @@ main {
     margin-top: 130.88px;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    /* background: url("../images/heroimages/heroimage-mystical-forrest.jpg") no-repeat center center/cover; */
+    background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull.jpg") no-repeat center center/cover;
+    /* background: url("../images/heroimages/heroimage-path-to-the-horizon.jpg") no-repeat center center/cover;*/
+}
 
+/* Work (Gallery) */
+#work img {
+    width: 100px; /* Love Runnings set to 100% */
+    line-height: 1em;
+}
+
+#work {
+    line-height: 0;
+}
+
+
+.gallery img {
+    width: 300px;
+    line-height 1em;
+}
+
+.gallery {
+    line-height 1em;
+}
+
+
+
+
+/* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
+#about, #message {
+    width: 100%;
+    background-color: black;
+}
+
+p {
+    color:aqua;
+    /* background-color: black; */
+}
+
+/* styled in index.html instead!? #about-portrait {
+    width: 250px;
+} */
 
 
 /* Form */
@@ -156,40 +207,7 @@ main {
 
 
 
-
-/* Hero section */
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
-}
-
-/* Work (Gallery) */
-#work img {
-    width: 600px; /* Love Runnings set to 100% */
-    line-height: 1em;
-}
-
-#work {
-    line-height: 0;
-}
-
-/* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
-#about, #message {
-    width: 100%;
-    background-color: black;
-}
-
-p {
-    color:aqua;
-    /* background-color: black; */
-}
-
-/* styled in index.html instead!? #about-portrait {
-    width: 250px;
-} */
-
-/* Footer */
+/* XXXXXXXXXX Footer XXXXXXXXXX */
 footer {
     background-color: white;
 }
@@ -209,12 +227,12 @@ footer {
 }
 
 
-/* Media querys below with smallest devices first and largest at the bottom */
+/* XXXXXXXXXX Media querys below with smallest devices first and largest at the bottom XXXXXXXXXX */
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #work {
-        column-count: 2;
+        column-count: 3;
         column-gap: 0;
     }
 }
@@ -227,7 +245,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right;
+        padding-right: 0; /* check this for what value it should be, Sarah discovered it! */
     }
 
     #menu {
@@ -258,8 +276,13 @@ footer {
     }
 
     /* Work */
-    #photos {
+   /*  #photos {
         column-count: 3;
+    } */
+
+    .gallery {
+        column-count: 3;
+        width: 100%;
     }
 
     /* Form */
@@ -293,7 +316,7 @@ footer {
 
     /* Work*/
     #Work {
-        column-count: 4;
+        column-count: 3;
     }
 }
 
