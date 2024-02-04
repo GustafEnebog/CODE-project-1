@@ -106,7 +106,7 @@ main {
     /* background-color: red; */
     /* make main element take up any surplus space to push foter down*/
     flex: 1 0 auto;
-    margin-top: 130.88px;
+    margin-top: 200px /* 130.88px;*/
 }
 
 /* Hero section */
@@ -116,6 +116,23 @@ main {
     /* background: url("../images/heroimages/heroimage-mystical-forrest.jpg") no-repeat center center/cover; */
     background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull.jpg") no-repeat center center/cover;
     /* background: url("../images/heroimages/heroimage-path-to-the-horizon.jpg") no-repeat center center/cover;*/
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background: rgba(241, 109, 102, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color:#ffffff;
 }
 
 /* Work (Gallery) */
@@ -142,13 +159,17 @@ main {
 
 
 /* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
-#about, #message {
+#about, #contact {
     width: 100%;
     background-color: black;
 }
 
-p {
-    color:aqua;
+/* <p class="synopsis">Synopsis: ...</p>
+
+.synopsis { color: #7AC5CD; } */
+
+p.light-on-black-background {
+    color:  #d3d3d3;
     /* background-color: black; */
 }
 
@@ -194,7 +215,7 @@ p {
     justify-content: space-between;
 }
 
-.join-button {
+.send-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -226,6 +247,9 @@ footer {
     color: black;
 }
 
+#artfinder-logo {
+    height: 33px;
+}
 
 /* XXXXXXXXXX Media querys below with smallest devices first and largest at the bottom XXXXXXXXXX */
 
@@ -272,7 +296,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 79px;
+        margin-top: 200px;/*79px; */
     }
 
     /* Work */

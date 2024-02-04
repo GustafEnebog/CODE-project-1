@@ -52,6 +52,7 @@
         <!-- <section id="work"> -->
             <!-- > <h2 class=""hidden-heading>Work</h2>  This was added in the official http test -->
             <h2>Still life</h2>
+            <p>This text should be black</p>
             <div class="gallery">
                 <img src="assets/images/gallery-stillife/stilleben-braided-flask.jpg" alt="Braided flask">
                 <img src="assets/images/gallery-stillife/stilleben-rutilus-rutilus.jpg" alt="Rutilus rutilus">
@@ -105,34 +106,34 @@
 
         <!-- Contact form -->
         <section id="contact">
-            <form id="message-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Dont hesitate to contact me!</h2>
-                <label for="first_name">First Name</label>
+            <form id="message-form" method="POST" action="https://formdump.codeinstitute.net"> <!-- What should I change the formdump to --> 
+                <h2 class="light-on-black-background">Dont hesitate to contact me!</h2>
+                <label for="first_name" class="light-on-black-background">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
                 <br>
-                <label for="last_name">Last Name</label>
+                <label for="last_name" class="light-on-black-background">Last Name</label>
                 <input type="text" name="last_name" id="last_name" class="text-input" required>
                 <br>
-                <label for="email_address">Email Address</label>
+                <label for="email_address" class="light-on-black-background">Email Address</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <br>
-                <div class="radio-buttons">
+                <div class="radio-buttons" class="light-on-black-background">
                     <div>
-                        <label for="buying art">Buying art</label>
+                        <label for="buying art" class="light-on-black-background">Buying art</label>
                         <input type="radio" name="running_preference" id="road" value="road" required checked>
                     </div>
                     <div>
-                        <label for="individual lessons">Individual lessons</label>
+                        <label for="individual lessons" class="light-on-black-background">Individual lessons</label>
                         <input type="radio" name="running_preference" id="trail" value="trail" required>
                     </div>
                     <div>
-                        <label for="other">Other</label>
+                        <label for="other" class="light-on-black-background">Other</label>
                         <input type="radio" name="running_preference" id="both" value="both" required>
                     </div>
                 </div>
                 <button type="submit" class="send-button">Send!</button>
             </form>
-            <p>
+            <p class="light-on-black-background">
                 Main Content by Contact - Main Content by Contact Main Content by Contact - <br>
                 Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
                 Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
@@ -146,14 +147,13 @@
                 Main Content by Contact - Main Content by Contact - Main Content by Contact - <br>
             </p>
         </section>
-
     </main>
 
     <!-- FOOTER -->
     <footer>
         <ul id="social-networks">
             <li>
-                <a href="https://www.artfinder.com/" target="_blank" rel="noopener" img="assets/images/artfinder-logo.jpg"><img id="logo" src="assets/images/artfinder-logo.jpg" alt="Enebog Art Logo"></a>
+                <a href="https://www.artfinder.com/" target="_blank" rel="noopener" img="assets/images/artfinder-logo.jpg"><img id="artfinder-logo" src="assets/images/artfinder-logo.jpg" alt="Enebog Art Logo"></a>
             </li>
             <li>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit my Youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
