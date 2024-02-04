@@ -97,13 +97,68 @@ nav {
 
 /* Main content */
 main {
-    /* background-color: red; */
+    background-color: red;
     /* make main element take up any surplus space to push foter down*/
     flex: 1 0 auto;
     margin-top: 130.88px;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
+}
 
+/* Work (Gallery) */
+
+
+/*#work img {
+    width: 100%; /* Love Runnings set to 100% */
+ /*   line-height: 1em;
+}*/
+
+/*#work {
+    line-height: 3 px;
+}*/
+
+.gallery {
+    width: 100%; /* Love Runnings set to 100% */
+    column-count: 2;
+    line-height: 0.5em;
+}
+
+/* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
+#about, #message {
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+#about {
+    width: 100%;
+    background-color: black;
+}
+
+#message {
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+
+p light-on-black-background {
+    /* color:aqua; */
+    /* background-color: black; */
+}
+
+/* styled in index.html instead!? #about-portrait {
+    width: 250px;
+} */
 
 
 /* Form */
@@ -152,60 +207,6 @@ main {
     color: orange;
 }
 
-
-
-
-
-
-/* Hero section */
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
-}
-
-/* Work (Gallery) */
-#work img {
-    width: 100%; /* Love Runnings set to 100% */
-    line-height: 1em;
-}
-
-#work {
-    line-height: 3 px;
-}
-
-/* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
-#about, #message {
-    width: 100%;
-    background-color: black;
-}
-
-
-
-
-#about {
-    width: 100%;
-    background-color: black;
-}
-
-#message {
-    width: 100%;
-    background-color: black;
-}
-
-
-
-
-
-p light-on-black-background {
-    /* color:aqua; */
-    /* background-color: black; */
-}
-
-/* styled in index.html instead!? #about-portrait {
-    width: 250px;
-} */
-
 /* Footer */
 footer {
     background-color: white;
@@ -230,9 +231,14 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #work {
+    /*#work {
         column-count: 3;
-        column-gap: 1em;
+        column-gap: 1.2em;
+    } */
+
+    .gallery {
+        column-count: 3;
+        column-gap: 0.5em;        
     }
 }
 
@@ -275,8 +281,14 @@ footer {
     }
 
     /* Work */
-    #photos {
+    /* #photos {
         column-count: 3;
+        column-gap: 1.2em;
+    }*/
+
+    .gallery {
+        column-count: 3;
+        column-gap: 0.5em;        
     }
 
     /* Form */
@@ -309,8 +321,14 @@ footer {
     }
 
     /* Work*/
-    #Work {
-        column-count: 4;
+    /* #Work {
+        column-count: 3;
+        column-gap: 1.2em;
+    }*/
+
+    .gallery {
+        column-count: 3;
+        column-gap: 0.5em;        
     }
 }
 
