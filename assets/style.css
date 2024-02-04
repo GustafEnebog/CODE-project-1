@@ -21,6 +21,10 @@ body {
     font-family: 'Open Sans Regular 400', 'Montserrat', sans-serif;
 }
 
+h1 {
+
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -100,14 +104,32 @@ main {
     background-color: red;
     /* make main element take up any surplus space to push foter down*/
     flex: 1 0 auto;
-    margin-top: 130.88px;
+    margin-top: 250px; /* 130.88px; */
 }
 
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
+    /* ../images/heroimage-mystical-forrest.jpg */
+    background: url("assets/images/heroimages/heroimage-mystical-forrest.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 /* Work (Gallery) */
@@ -122,10 +144,14 @@ main {
     line-height: 3 px;
 }*/
 
-.gallery {
+/* Gallery */
+.gallery img {
     width: 100%; /* Love Runnings set to 100% */
-    column-count: 2;
-    line-height: 0.5em;
+    line-height: 1em;
+}
+
+.gallery {
+    line-height: 0;
 }
 
 /* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
@@ -236,9 +262,10 @@ footer {
         column-gap: 1.2em;
     } */
 
+    /* Gallery */
     .gallery {
         column-count: 3;
-        column-gap: 0.5em;        
+        column-gap: 0.3em;        
     }
 }
 
@@ -277,7 +304,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 79px;
+        margin-top: 450px; /* 79px; */
     }
 
     /* Work */
@@ -286,9 +313,10 @@ footer {
         column-gap: 1.2em;
     }*/
 
+    /* Gallery */
     .gallery {
         column-count: 3;
-        column-gap: 0.5em;        
+        column-gap: 0.3em;        
     }
 
     /* Form */
@@ -326,9 +354,10 @@ footer {
         column-gap: 1.2em;
     }*/
 
+    /* Gallery */
     .gallery {
         column-count: 3;
-        column-gap: 0.5em;        
+        column-gap: 0.3em;        
     }
 }
 
