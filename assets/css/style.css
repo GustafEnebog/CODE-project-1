@@ -173,6 +173,11 @@ p.light-on-black-background {
     /* background-color: black; */
 }
 
+.light-on-black-background {
+    color:  #d3d3d3;
+    /* background-color: black; */
+}
+
 /* styled in index.html instead!? #about-portrait {
     width: 250px;
 } */
@@ -180,7 +185,7 @@ p.light-on-black-background {
 
 /* Form */
 #signup {
-    background-image: url("../images/signup-image.webp");
+    /* background-image: url("../images/signup-image.webp");*/
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
