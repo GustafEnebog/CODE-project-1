@@ -106,7 +106,7 @@ main {
     /* background-color: red; */
     /* make main element take up any surplus space to push foter down*/
     flex: 1 0 auto;
-    margin-top: 200px /* 130.88px;*/
+    margin-top: 108px /* 130.88px;*/
 }
 
 /* Hero section */
@@ -187,7 +187,7 @@ p.light-on-black-background {
 
 
 /* Form */
-#signup {
+#contact {
     /* background-image: url("../images/signup-image.webp");*/
     background-size: cover;
     background-position: 75%;
@@ -195,13 +195,13 @@ p.light-on-black-background {
     flex-grow: 1;
 }
 
-#signup-form {
+#message-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
-#signup-form>h2 {
+#message-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -304,7 +304,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 200px;/*79px; */
+        margin-top: 122.4px;/*79px; */
     }
 
     /* Work */
