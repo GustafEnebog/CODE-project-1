@@ -121,7 +121,7 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background: rgba(241, 109, 102, .7);
+    background: rgba(185, 187, 182, 0.7); /* #B9BBB6;  #D6CFC7  rgba(195, 110, 80, 0.7); */
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -149,7 +149,7 @@ main {
   .zoom {
     padding: 50px;
     /* background-color: green; */
-    background: url("../images/gallery-stillife/stileben-Barley-and-wheat-flask.jpg") no-repeat center center/cover;
+   /* background: url("../images/gallery-stillife/stileben-Barley-and-wheat-flask.jpg") no-repeat center center/cover;*/
     transition: transform .1s;
     width: 200px;
     height: 300px;
@@ -166,8 +166,8 @@ main {
 
 
 #work img {
-    width: 100px; /* Love Runnings set to 100% */
-    line-height: 1em;
+    /* width: 100px; /* Love Runnings set to 100% */
+    /* line-height: 1em; */
 }
 
 #work {
@@ -177,11 +177,11 @@ main {
 
 .gallery img {
     width: 300px;
-    line-height 1em;
+    line-height: 1em;
 }
 
 .gallery {
-    line-height 1em;
+    line-height: 1em;
 }
 
 
@@ -289,7 +289,7 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #work {
+    .gallery {
         column-count: 3;
         column-gap: 0;
     }
@@ -372,8 +372,8 @@ footer {
         border-bottom: 1 px solid #3a3a3a;
     }
 
-    /* Work*/
-    #Work {
+    /* Gallery*/
+    .gallery {
         column-count: 3;
     }
 }
