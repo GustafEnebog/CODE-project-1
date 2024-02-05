@@ -137,19 +137,13 @@ main {
 
 /* Work (Gallery) */
 
-
-
-
 /* 3W schools code snippet for "Zoom on Hover" modified to this site" */
-
 * {
     box-sizing: border-box;
   }
   
   .zoom {
     padding: 50px;
-    /* background-color: green; */
-   /* background: url("../images/gallery-stillife/stileben-Barley-and-wheat-flask.jpg") no-repeat center center/cover;*/
     transition: transform .1s;
     width: 200px;
     height: 300px;
@@ -162,40 +156,24 @@ main {
     transform: scale(1.5); 
   }
 
-
-
-
-#work img {
-    /* width: 100px; /* Love Runnings set to 100% */
-    /* line-height: 1em; */
-}
-
-#work {
-    line-height: 0;
-}
-
-
+/* Controlling the images in gallery */
 .gallery img {
-    width: 300px;
-    line-height: 1em;
+    object-fit: contain;
+    width: 200px;
+    /* height: 100px; */
+    line-height: 0em;
 }
 
 .gallery {
-    line-height: 1em;
+    line-height: 0em;
 }
 
 
-
-
-/* About and Message       STILL NOT WORKING WITH LIGHT GREY TEXT     */
+/* About and Message */
 #about, #contact {
     width: 100%;
     background-color: black;
 }
-
-/* <p class="synopsis">Synopsis: ...</p>
-
-.synopsis { color: #7AC5CD; } */
 
 p.light-on-black-background {
     color:  #d3d3d3;
@@ -206,10 +184,6 @@ p.light-on-black-background {
     color:  #d3d3d3;
     /* background-color: black; */
 }
-
-/* styled in index.html instead!? #about-portrait {
-    width: 250px;
-} */
 
 
 /* Form */
