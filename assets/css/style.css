@@ -34,7 +34,7 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 98;
     width:100%;
     box-shadow: 0 2px 3px #3a3a3a;
     display: flex;
@@ -141,25 +141,26 @@ main {
 
 
 /* 3W schools code snippet for "Zoom on Hover" modified to this site" */
-<style>
-.zoom {
-  padding: 50px;
-  background-color: green;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
 
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-</style>
-
-<div class="zoom"></div>
-
-
-
+* {
+    box-sizing: border-box;
+  }
+  
+  .zoom {
+    padding: 50px;
+    /* background-color: green; */
+    background: url("../images/gallery-stillife/stileben-Barley-and-wheat-flask.jpg") no-repeat center center/cover;
+    transition: transform .1s;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
 
 
 
