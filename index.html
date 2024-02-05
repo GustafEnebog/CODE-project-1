@@ -51,6 +51,25 @@
         <!-- Work -->
         <section id="work">
             <!-- > <h2 class=""hidden-heading>Work</h2>  This was added in the official http test -->
+
+
+
+<style>
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+<div class="zoom"></div>
             <h2>Still life</h2>
             <p>This text should be black</p>
             <div class="gallery">
@@ -116,6 +135,11 @@
                 <br>
                 <label for="email_address" class="light-on-black-background">Email Address</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <label for="message" class="light-on-black-background">Message</label>
+                <input type="message" name="message" id="message" class="text-input" required>
+                <textarea rows="4" cols="50" name="comment" form="usrform">
+                    Enter text here...</textarea>
                 <br>
                 <div class="radio-buttons" class="light-on-black-background">
                     <div>
