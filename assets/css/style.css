@@ -54,7 +54,7 @@ header {
     /* line-height: 0; */
     /* object-fit: scale-down; */
     height: auto;
-    width: 130px;
+    width: 200px;
     display: block;
     /*padding: 10px; */
     padding-top: 30px;
@@ -383,13 +383,13 @@ header {
 
 #logo {
     height: auto;
-    width: 130px;
+    width: 150px;
     display: block;
     /* padding: 10px; */
-    padding-top: 30px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    /* padding-top: 30px; */
+    /* padding-right: 10px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 10px; */
 }
 
 textarea {
