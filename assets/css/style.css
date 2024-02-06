@@ -44,25 +44,35 @@ header {
 
 /* Logo for mobile first case (below 768px width)*/
 #logo {
-    line-height: 75px;
-    margin: 0 0.5rem;
-    object-fit: contain;
-    width: 200px;
-    height: 100px;
+    /* line-height: 75px; SEAN */
+    /* margin: 0 0.5rem; SEAN */
+    /* padding-top: 20%; */
+    /* object-fit: contain; SEAN */
+    /* width: 200px; SEAN */
+    /* height: 100px; */
     /* testing line-height to see if it takes away the space above and below the logo */
     /* line-height: 0; */
     /* object-fit: scale-down; */
+    height: auto;
+    width: 130px;
+    display: block;
+    padding: 10px;
 }
 
 header a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none; SEAN
+    color: inherit; SEAN
+}
+
+header {
+    align-items: center;
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+    /* font-size: 110%; SEAN */
+    /* letter-spacing: 4px; SEAN */
+    /* list-style-type: none; SEAN */
+    margin-top: 20px;
 }
 
 #menu > li {
@@ -96,6 +106,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 
@@ -197,7 +208,7 @@ p.light-on-black-background {
 
 #message-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    /* background-color: rgba(60, 60, 60, 0.6);*/
     padding: 30px;
 }
 
@@ -277,7 +288,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 0; /* check this for what value it should be, Sarah discovered it! */
+        padding-right: 1rem; /* check this for what value it should be, Sarah discovered it! */
     }
 
     #menu {
@@ -290,15 +301,6 @@ footer {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    #logo {
-        line-height: 75px;
-        margin: 0 0.5rem;
-        /* object-fit: contain; */
-        width: 200px;
-        height: 100px;
-        object-fit: scale-down;
     }
 
     /* Main content */
@@ -359,4 +361,29 @@ footer {
         flex-direction: row;
     }
     
+}
+
+#menu {
+    list-style: none;
+	margin-top: 20px;
+    margin-left: 30px;
+}
+
+#menu a {
+    color: black
+}
+
+header {
+    align-items: center;
+}
+
+#logo {
+    height: auto;
+    width: 130px;
+    display: block;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
 }
