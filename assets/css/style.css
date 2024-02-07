@@ -274,15 +274,30 @@ footer {
     height: 33px;
 } */
 
-
+/* Gallery display pages */
 .gallery-display {
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    padding-top: 40px;
+    padding-left: 20;
+    padding-right: 20px;
+    padding-bottom: 100px;
   }
 
+#biglink {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -2000px; /* to move the text out of the visible area */
+}
+    
+html, body {
+    height: 100%; /* or the height property above will not work */
+    margin: 0; /* to avoid scrollbars */
+    padding: 0;
+}
 
 /* XXXXXXXXXX Media querys below with smallest devices first and largest at the bottom XXXXXXXXXX */
 
