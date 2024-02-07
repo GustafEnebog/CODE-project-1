@@ -129,7 +129,7 @@ main {
     height: 600px;
     width: 100%;
     /* background: url("../images/heroimages/heroimage-mystical-forrest-1748.jpg") no-repeat center center/cover; */
-    background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull-900.jpg") no-repeat center center/cover;
+    background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull-2000.jpg") no-repeat center center/cover;
     /* background: url("../images/heroimages/heroimage-path-to-the-horizon-2000.jpg") no-repeat center center/cover;*/
     position: relative;
 }
@@ -273,6 +273,10 @@ footer {
 /* #artfinder-logo {
     height: 33px;
 } */
+
+.gallery-display {
+    background-color: black;
+}
 
 /* XXXXXXXXXX Media querys below with smallest devices first and largest at the bottom XXXXXXXXXX */
 
