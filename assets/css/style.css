@@ -128,9 +128,9 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    /* background: url("../images/heroimages/heroimage-mystical-forrest.jpg") no-repeat center center/cover; */
-    background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull.jpg") no-repeat center center/cover;
-    /* background: url("../images/heroimages/heroimage-path-to-the-horizon.jpg") no-repeat center center/cover;*/
+    /* background: url("../images/heroimages/heroimage-mystical-forrest-1748.jpg") no-repeat center center/cover; */
+    background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull-900.jpg") no-repeat center center/cover;
+    /* background: url("../images/heroimages/heroimage-path-to-the-horizon-2000.jpg") no-repeat center center/cover;*/
     position: relative;
 }
 
