@@ -274,9 +274,15 @@ footer {
     height: 33px;
 } */
 
+
 .gallery-display {
     background-color: black;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+
 
 /* XXXXXXXXXX Media querys below with smallest devices first and largest at the bottom XXXXXXXXXX */
 
