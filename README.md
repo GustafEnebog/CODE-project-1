@@ -100,16 +100,29 @@ Remaining bugs
 -- the "underline on hoover" has stopped working at some version of the code.
 -- Box shadow under header does not disapear with the responsive design for larger screensizes.
 
-Remaining to do list
--- Create link back back to index.html from the large, high-resolution image page (braide-flask.html).
--- Make logo slightly larger, header slightly higher and push nav elements further down
+YES BUCKET!!!
+-- Create link "arrow" back back to index.html from the large, high-resolution image page (braide-flask.html).
+-- Fix gallery grid
+-- Fix About and contact
 -- Adjust start of main content as to not hide under header
+-- Right align send button
+-- Make message field larger
+-- Make first and last name field sideby side
+-- Padding before gallery headlines
+-- Padding before About section and between about and contact
+-- Make background all the way down on gallery display page
+
 -- Delete unused image files(2000px)
 -- Clean up code (delete commented out code)
 -- Delete unused files
--- Fix gallery grid
--- Fix About and contact
 -- Clean up surplus CSS-rules
 -- Clean up row structure (delete multiple empty rows etc.)
--- Add slider/carousel for the Hero image
 -- ...and OMG there is more!
+
+-- Add screenshots to readme
+
+MAYBE BUCKET!
+-- Make logo slightly larger, header slightly higher and push nav elements further down
+-- Add slider/carousel for the Hero image
+
+NO BUCKET
