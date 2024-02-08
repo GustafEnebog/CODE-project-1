@@ -174,20 +174,27 @@ main {
   }
   
   .zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
+    /* -ms-transform: scale(1.5); /* IE 9 */
+    /* -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.6);
+    aspect-ratio: unset;
+    height: unset;
   }
 
 /* Controlling the images in gallery */
 .gallery img {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
+    max-width: 350px;
+    aspext-ratio: 1;
     /* height: 100px; */
     line-height: 1em;
 }
 
 .gallery {
+    max-width: 1000px;  /* B */
+    margin-left: auto;  /* B */
+    margin-right: auto;  /* B */
     line-height: 0px;
 }
 
@@ -277,7 +284,8 @@ p.light-on-black-background {
     background-color: orange;
     color: color: #3a3a3a;
     display: flex;
-    align-items: center;
+    /* align-items: right; */
+    justify-content: right;
     /* justify-content: flex-end; */
 }
 
