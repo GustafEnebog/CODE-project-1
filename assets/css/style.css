@@ -16,9 +16,12 @@ h1 {
 
 /* General styles */
 body {
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
     /* Generic project styles */
     color: #3a3a3a;
     /* font-family: 'Lato', sans-serif; */
@@ -40,6 +43,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    max-width: 1800px;
 }
 
 /* Logo for mobile first case (below 768px width)*/
@@ -224,6 +228,9 @@ p.light-on-black-background {
 }
 
 #message-form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     color: #ffffff;
     /* background-color: rgba(60, 60, 60, 0.6);*/
     padding: 30px;
@@ -245,11 +252,11 @@ p.light-on-black-background {
     padding: 0 5px;
 }
 
-#text-input-long {
+#message-long {
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
@@ -270,9 +277,15 @@ p.light-on-black-background {
     background-color: orange;
     color: color: #3a3a3a;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    /* justify-content: flex-end; */
 }
 
+text-area {
+    padding: 8px 8px;
+    font-size: 0.9rem;
+    font-family: inherit;
+}
 
 
 
