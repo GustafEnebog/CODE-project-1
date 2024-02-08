@@ -143,6 +143,7 @@ main {
     background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull-2000.jpg") no-repeat center center/cover;
     /* background: url("../images/heroimages/heroimage-path-to-the-horizon-2000.jpg") no-repeat center center/cover;*/
     position: relative;
+    margin-bottom: 40px;
 }
 
 #cover-text {
@@ -424,7 +425,7 @@ html, body {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 122.4px;/*79px; */
+        margin-top: 133.44px;/*79px; */
     }
 
     /* Work */
@@ -457,6 +458,9 @@ html, body {
     .join-button:hover {
         background-color: orange;
         color: orange;
+    }
+    .send-button {
+        justify-content: right;
     }
 }
 
@@ -492,12 +496,12 @@ html, body {
 }
 
 header {
-    align-items: center;
+    align-items: baseline; /* align-items: center;*/
 }
 
 #logo {
     height: auto;
-    width: 150px;
+    width: 200px;
     display: block;
     /* padding: 10px; */
     /* padding-top: 30px; */
