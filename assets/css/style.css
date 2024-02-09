@@ -36,7 +36,7 @@ body {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed;
+    position: fixed; /* reason for links not scrolling to correct place*/
     z-index: 98;
     width:100%;
     box-shadow: 0 2px 3px #3a3a3a;
@@ -58,7 +58,7 @@ header {
     /* line-height: 0; */
     /* object-fit: scale-down; */
     height: auto;
-    width: 200px;
+    width: 150px;
     display: block;
     /*padding: 10px; */
     padding-top: 30px;
@@ -189,7 +189,7 @@ main {
 .gallery img {
     object-fit: cover;
     width: 100%;
-    max-width: 350px;
+    max-width: 350px; /* CHECK IF THIS CAN BE TAKEN AWAY TO SOLVE PROBLEM OF IMAGES NOT GOING FULL OUT */
     aspect-ratio: 1;
     /* height: 100px; */
     line-height: 1em;
@@ -207,6 +207,12 @@ main {
 #about, #contact {
     width: 100%;
     background-color: black;
+    padding-top: 138px
+}
+
+/* Work */
+#work {
+    padding-top: 138px;
 }
 
 p.light-on-black-background {
@@ -273,6 +279,7 @@ p.light-on-black-background {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    padding-top: 138px;
 }
 
 #message-form {
