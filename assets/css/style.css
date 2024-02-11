@@ -363,25 +363,40 @@ footer {
     height: 33px;
 } */
 
-/* Gallery display pages */
+/*------------------------------ Gallery display pages -------------------------*/
 
 p.gallery-display {
     max-width: 900px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h3.gallery-display {
+    max-width: 900px;
+    padding-top: 15px;
 }
 
 .gallery-display {
     background-color: black;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 20;
     padding-right: 20px;
-    padding-bottom: 60px;
-    gap: 30px;
+    padding-bottom: 0px;
+    /* gap: 30px; */
     flex-direction: column;
     color:  #d3d3d3;
   }
+
+#align-left {
+    background-color: black;
+    float: left;
+    padding-top: 15px;
+    padding-left: 40px;
+  }
+
 
 #biglink {
     display: block;
@@ -389,7 +404,14 @@ p.gallery-display {
     height: 100%;
     text-indent: -2000px; /* to move the text out of the visible area */
 }
+
+html, body {
+    height: 100%; /* or the height property above will not work */
+    margin: 0; /* to avoid scrollbars */
+    padding: 0;
+    }
     
+/*------------------------------ miscellaneous -------------------------*/
 html, body {
     height: 100%; /* or the height property above will not work */
     margin: 0; /* to avoid scrollbars */
