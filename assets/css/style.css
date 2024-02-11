@@ -149,16 +149,20 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background: rgba(185, 187, 182, 0.7); /* #B9BBB6;  #D6CFC7  rgba(195, 110, 80, 0.7); */
-    font-size: 130%;
+    font-size: 250%;
     position: absolute;
     bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    width: 43%;
+    min-height: 165px;
+    padding-top: 25px;
+    padding-left: 60px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text > h3 {
+    color:black;
+}
+
+#cover-text > h4 {
     color:#ffffff;
 }
 
@@ -207,7 +211,7 @@ main {
 #about, #contact {
     width: 100%;
     background-color: black;
-    padding-top: 138px
+    padding-top: 200px; /* 138px; */
 }
 
 /* Work */
@@ -245,12 +249,13 @@ p.light-on-black-background {
 
 
 #about-text {
-    width: 220px;
+    width: 1000px;
     height: 300px;
-    border: 1px solid black; 
+    border: 1px solid black;
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
     max-width: 1000px;  /* B */
     margin-left: auto;  /* B */
     margin-right: auto;
@@ -258,13 +263,13 @@ p.light-on-black-background {
     border: 1px solid black;
     display: flex;
     align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-
-
-.left {
+#about-portrait {
     float: left;
-    padding.left: 15%;
+    padding-top: 9%;
 }
 
 .right {
@@ -318,16 +323,15 @@ p.light-on-black-background {
     padding: 0 5px;
 }
 
-.send-button {
+#send-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
     background-color: orange;
     color: color: #3a3a3a;
-    display: flex;
-    /* align-items: right; */
-    justify-content: right;
+    /* display: flex; */
+    /* justify-content: flex-end; */
     /* justify-content: flex-end; */
 }
 
@@ -410,7 +414,7 @@ html, body {
     margin: 0; /* to avoid scrollbars */
     padding: 0;
     }
-    
+
 /*------------------------------ miscellaneous -------------------------*/
 html, body {
     height: 100%; /* or the height property above will not work */

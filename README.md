@@ -4,6 +4,9 @@ Mix of black and white boxes in form!!!
 Glöm inte atts kapa hyperlänkar som Bonsai
 Saved jpg with progressive check box checked so that a lower grade resolution image load first before the higher res…
 Add screenshots to readme
+should I wrap long paragraphs!?
+write that the jpg images are saved as progressive
+color on cover text  rgba(185, 187, 182, 0.7);
 
 
 ![Image of site on different sized devices.](assets/images/enebogart-logo.png)
