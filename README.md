@@ -7,6 +7,7 @@ Add screenshots to readme
 should I wrap long paragraphs!?
 write that the jpg images are saved as progressive
 color on cover text  rgba(185, 187, 182, 0.7);
+The display page is not responsive
 
 
 ![Image of site on different sized devices.](assets/images/enebogart-logo.png)

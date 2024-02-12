@@ -219,16 +219,15 @@ main {
     padding-top: 138px;
 }
 
-p.light-on-black-background {
-    color:  #d3d3d3;
-    /* background-color: black; */
-}
-
 .light-on-black-background {
     color:  #d3d3d3;
     /* background-color: black; */
 }
 
+form>h2 {
+    color:  red;
+    /* background-color: black; */
+}
 
 #XXXXXXXX {
     width: 220px;
@@ -326,8 +325,8 @@ p.light-on-black-background {
 #send-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px;
-    font-size: 100%;
+    padding: 25px 50px;
+    font-size: 120%;
     background-color: orange;
     color: color: #3a3a3a;
     /* display: flex; */
@@ -500,7 +499,7 @@ html, body {
 /* Large devies (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1 px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;
     }
 
     /* Gallery*/
