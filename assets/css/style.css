@@ -27,9 +27,6 @@ body {
     font-family: 'Open Sans Regular 400', 'Montserrat', sans-serif;
 }
 
-
-
-
 /*--------------- HEADER -----------------*/
 header {
     background-color: #ffffff;
@@ -96,7 +93,6 @@ nav {
     top: 100%;
 }
 
-
 /*--------------- NAV TOGGLE -----------------*/
 #nav-toggle:checked~nav {
     display: block;
@@ -112,10 +108,9 @@ nav {
     text-align: center;
 }
 
-
 /*--------------- MAIN CONTENT -----------------*/
 main {
-    /* make main element take up any surplus space to push foter down*/
+    /* make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 108px
 }
@@ -150,7 +145,6 @@ main {
 #cover-text>h4 {
     color: #ffffff;
 }
-
 
 /*--------------- 3W SCHOOL CODE SNITPPET FOR "ZOOM ON HOVER" MODIFIED TO THIS SITE" -----------------*/
 * {
@@ -189,21 +183,24 @@ main {
     line-height: 0px;
 }
 
-
 /*--------------- WORK, ABOUT AND CONTACT -----------------*/
-#about,
-#contact {
+#work {
+    padding-top: 138px;
+}
+
+#about {
     width: 100%;
     background-color: black;
     padding-top: 138px;
 }
 
-#work {
-    padding-top: 138px;
-}
-
 .light-on-black-background {
     color: #d3d3d3 !important;
+}
+
+#postal-adress {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*--------------- ABOUT -----------------*/
@@ -218,9 +215,6 @@ form>h2 {
     display: flex;
     align-items: center;
 }
-
-
-
 
 #about-text {
     width: 60vw;
@@ -242,9 +236,8 @@ form>h2 {
 }
 
 #about-portrait {
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 2%;
+    text-align: center;
+    padding-top: 0%;
 }
 
 .right {
@@ -254,11 +247,13 @@ form>h2 {
 
 /*--------------- FORM -----------------*/
 #contact {
+    width: 100%;
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 0px 10% 0 10%;
     flex-grow: 1;
-    padding-top: 138px;
+    padding-top: 60px; /* ideal for compensating for header in the link-scroll: 138px; */
+    background-color: black;
 }
 
 #message-form {
@@ -266,7 +261,6 @@ form>h2 {
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
-    /* background-color: rgba(60, 60, 60, 0.6);*/
     padding: 30px;
 }
 
@@ -299,7 +293,7 @@ form>h2 {
 #send-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 25px 50px;
+    padding: 22px 45px;
     font-size: 120%;
     background-color: orange;
     color: color: #3a3a3a;
@@ -307,12 +301,10 @@ form>h2 {
 
 text-area {
     padding: 8px 8px;
+    color: #fafafa;
     font-size: 0.9rem;
     font-family: inherit;
 }
-
-
-
 
 /*--------------- FOOTER -----------------*/
 footer {
@@ -333,9 +325,7 @@ footer {
     color: black;
 }
 
-
 /*--------------- GALLERY DISPLAY PAGES -----------------*/
-
 p.gallery-display {
     max-width: 92%;
     padding-top: 10px;
@@ -371,7 +361,6 @@ h3.gallery-display {
     padding-bottom: 5px;
 }
 
-
 #biglink {
     display: block;
     width: 100%;
@@ -380,18 +369,7 @@ h3.gallery-display {
     /* to move the text out of the visible area */
 }
 
-html,
-body {
-    height: 100%;
-    /* or the height property above will not work */
-    margin: 0;
-    /* to avoid scrollbars */
-    padding: 0;
-}
-
-/*------------------------------ MISCELLANEOUS-------------------------*/
-html,
-body {
+html, body {
     height: 100%;
     /* or the height property above will not work */
     margin: 0;
@@ -401,7 +379,7 @@ body {
 
 
 /*-----------------------------------------------------------------------*/
-/*--------------- MEDIA QUERYS - SMALLEST DEVICE FIRST -----------------*/
+/*--------------- MEDIA QUERYS - SMALLEST DEVICE FIRST -------------_----*/
 /*-----------------------------------------------------------------------*/
 
 /*--------------- large or landscape phones (576px and up) -----------------*/
@@ -454,15 +432,21 @@ body {
         width: 100%;
     }
 
+    p.gallery-display {
+        max-width: 450px;
+    }
+
     /* Form */
     #contact {
         background-position: center;
-        position: relative;
+        /* position: relative; */
+        margin-bottom: 200px;
+        background-color: black;
     }
 
     #message-form {
         max-width: 400px;
-        position: absolute;
+        /* position: absolute; */
         left: 10%;
         top: 150px;
     }

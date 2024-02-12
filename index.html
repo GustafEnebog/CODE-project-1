@@ -134,12 +134,11 @@
                     He has held numerous painting and drawing courses as well as individual lessons. Please get in touch
                     for commission or inquiries about individual lessons.
                 </p>
-                <img id="about-portrait" src="assets/images/about-portrait.jpg" alt="Portrait of Artist" width="300px">
-                <!-- <img class="right" src="assets/images/logosplash-invert-50px.png"> -->
-                </font-color>
+            </div>
+            <div id="about-portrait">
+                <img id="about-portrait" src="assets/images/about-portrait.jpg" alt="Portrait of Artist" width="250px">
             </div>
         </section>
-
 
         <!-- Contact form -->
         <section id="contact">
@@ -156,16 +155,15 @@
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <!-- Subject -->
                 <label for="subject" class="light-on-black-background">Subject</label>
-                <input type="subject" name="subject" id="subject" class="text-input" required>
+                <input type="subject" name="subject" id="subject" class="text-input">
                 <!-- Message -->
                 <label for="message" class="light-on-black-background">Message</label>
-                <textarea id="message-long" name="message" rows="6"></textarea>
-                <!-- Adress -->
-                <div class="light-on-black-background">
+                <textarea id="message-long" name="message" rows="6" required></textarea>
+                <!-- Submit button -->
+                <button type="submit" id="send-button" class="light-on-black-background" style="float:right">Submit</button>
+                <div class="light-on-black-background" id="postal-adress">
                     <p>Gustaf Enebog<br>Markt 16<br>96450 Coburg<br>+49 173 - 81 88 78 3<br>enebogart@gmail.com</p>
                 </div>
-                <!-- Submit button -->
-                <button type="submit" id="send-button" style="float:right">Submit</button>
             </form>
         </section>
     </main>
