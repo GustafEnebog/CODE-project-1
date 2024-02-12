@@ -2,19 +2,19 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,300;1,200&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Spectral+SC:ital,wght@0,300;1,200&display=swap');
 
-/* Asterisk wildcard selector to overide default styles added by the browser */
+/*--------------- ASTERISK WILDCARD SELECTOR TO OVERIDE DEFAULT STYLES ADDED BY BROWSER -----------------*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Avoid displaying h1 since this was only for the sake of screen readers, search engines etc. */
+/*--------------- AVOID DISPLAYING h1 SINCE THIS WAS ONLY FOR THE SAKE OF SCREEN READERS, SEARCH ENGINES ETC. -----------------*/
 h1 {
     display: none;
 }
 
-/* General styles */
+/*--------------- GENERAL STYLES -----------------*/
 body {
     max-width: 1800px;
     margin-right: auto;
@@ -32,7 +32,7 @@ body {
 
 
 
-/* XXXXXXXXXX Header XXXXXXXXXX */
+/*--------------- HEADER -----------------*/
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -46,7 +46,7 @@ header {
     max-width: 1800px;
 }
 
-/* Logo for mobile first case (below 768px width)*/
+/*--------------- LOGO FOR MOBILE FIRST CASE (BELOW 768 WIDTH) -----------------*/
 #logo {
     /* line-height: 75px; SEAN */
     /* margin: 0 0.5rem; SEAN */
@@ -98,7 +98,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
+/*--------------- NAVBAR STYLE WITH DROPDOWN MENU -----------------*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -110,7 +110,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
+/*--------------- NAV TOGGLE -----------------*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -125,9 +125,7 @@ nav {
 }
 
 
-
-
-/* XXXXXXXXXX Main content XXXXXXXXXX */
+/*--------------- MAIN CONTENT -----------------*/
 main {
     /* background-color: red; */
     /* make main element take up any surplus space to push foter down*/
@@ -135,7 +133,7 @@ main {
     margin-top: 108px /* 130.88px;*/
 }
 
-/* Hero section */
+/*--------------- HERO SECTION -----------------*/
 #hero {
     height: 600px;
     width: 100%;
@@ -166,9 +164,8 @@ main {
     color:#ffffff;
 }
 
-/* Work (Gallery) NOT IN USE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/* 3W schools code snippet for "Zoom on Hover" modified to this site" */
+/*--------------- 3W SCHOOL CODE SNITPPET FOR "ZOOM ON HOVER" MODIFIED TO THIS SITE" -----------------*/
 * {
     box-sizing: border-box;
   }
@@ -189,7 +186,7 @@ main {
     height: unset;
   }
 
-/* Controlling the images in gallery */
+/*--------------- IMAGE IN GALLERY -----------------*/
 .gallery img {
     object-fit: cover;
     width: 100%;
@@ -207,14 +204,14 @@ main {
 }
 
 
-/* About and Message */
+/*--------------- ABOUT AND CONTACT -----------------*/
 #about, #contact {
     width: 100%;
     background-color: black;
     padding-top: 200px; /* 138px; */
 }
 
-/* Work */
+/*--------------- ABOUT -----------------*/
 #work {
     padding-top: 138px;
 }
@@ -225,7 +222,7 @@ main {
 }
 
 form>h2 {
-    color:  red;
+    color:  black;
     /* background-color: black; */
 }
 
@@ -248,7 +245,7 @@ form>h2 {
 
 
 #about-text {
-    width: 1000px;
+    width: 300px;
     height: 300px;
     border: 1px solid black;
     display: flex;
@@ -276,7 +273,7 @@ form>h2 {
     padding-right: 15%;
 }
 
-/* Form */
+/*--------------- FORM -----------------*/
 #contact {
     /* background-image: url("../images/signup-image.webp");*/
     background-size: cover;
@@ -343,7 +340,7 @@ text-area {
 
 
 
-/* XXXXXXXXXX Footer XXXXXXXXXX */
+/*--------------- FOOTER -----------------*/
 footer {
     background-color: white;
 }
@@ -366,17 +363,17 @@ footer {
     height: 33px;
 } */
 
-/*------------------------------ Gallery display pages -------------------------*/
+/*--------------- GALLERY DISPLAY PAGES -----------------*/
 
 p.gallery-display {
-    max-width: 900px;
+    max-width: 92%;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
 h3.gallery-display {
-    max-width: 900px;
-    padding-top: 15px;
+    max-width: 92%;
+    padding-top: 20px;
 }
 
 .gallery-display {
@@ -385,19 +382,31 @@ h3.gallery-display {
     /* justify-content: center; */
     align-items: center;
     padding-top: 0px;
-    padding-left: 20;
-    padding-right: 20px;
+    /* padding-left: 20; /* 20px*/
+    /* padding-right: 20px; /* 20px*/
     padding-bottom: 0px;
     /* gap: 30px; */
     flex-direction: column;
     color:  #d3d3d3;
   }
 
+#display-image-size {
+    /* width: 200px; */
+    /* height: 90vh; */
+    /* object-fit: contain; */
+    width: 100vw;
+    /* width: 92%; */
+    /* max-height: 92%; */
+}
+
+/* back arrow */
 #align-left {
     background-color: black;
     float: left;
     padding-top: 15px;
     padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
   }
 
 
@@ -414,16 +423,19 @@ html, body {
     padding: 0;
     }
 
-/*------------------------------ miscellaneous -------------------------*/
+/*------------------------------ MISCELLANEOUS-------------------------*/
 html, body {
     height: 100%; /* or the height property above will not work */
     margin: 0; /* to avoid scrollbars */
     padding: 0;
 }
 
-/* XXXXXXXXXX Media querys below with smallest devices first and largest at the bottom XXXXXXXXXX */
 
-/* Media query: large or landscape phones (576px and up) */
+/*-----------------------------------------------------------------------*/
+/*--------------- MEDIA QUERYS - SMALLEST DEVICE FIRST -----------------*/
+/*-----------------------------------------------------------------------*/
+
+/*--------------- large or landscape phones (576px and up) -----------------*/
 @media screen and (min-width: 576px) {
     .gallery {
         column-count: 3;
@@ -431,7 +443,7 @@ html, body {
     }
 }
 
-/* Media query: tablets and larger (768 and up) */
+/*--------------- tablets and larger (768 and up) -----------------*/
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -496,7 +508,7 @@ html, body {
     }
 }
 
-/* Large devies (laptops and desktops, 992px and up) */
+/*--------------- (laptops and desktops, 992px and up) -----------------*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
@@ -544,4 +556,18 @@ header {
 
 textarea {
     width: 100%;
+}
+
+p.gallery-display {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#display-image-size {
+    /* width: 200px; */
+    height: 70%;
+    /* object-fit: contain; */
+    /* width: 100vw; */
+    /* width: 92%; */
+    /* max-height: 92%; */
 }
