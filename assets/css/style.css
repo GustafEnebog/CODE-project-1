@@ -42,7 +42,7 @@ header {
     box-shadow: 0 2px 3px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     max-width: 1800px;
 }
 
@@ -110,6 +110,7 @@ nav {
     top: 100%;
 }
 
+
 /*--------------- NAV TOGGLE -----------------*/
 #nav-toggle:checked~nav {
     display: block;
@@ -117,11 +118,15 @@ nav {
 
 #nav-toggle {
     display: none;
+    /* vertical-align: middle; */
+    text-align: center;
 }
 
 .nav-toggle-label {
     font-size: 2rem;
     /* margin-bottom: 2rem; */
+    /* vertical-align: middle; */
+    text-align: center;
 }
 
 
@@ -147,10 +152,10 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background: rgba(185, 187, 182, 0.7); /* #B9BBB6;  #D6CFC7  rgba(195, 110, 80, 0.7); */
-    font-size: 250%;
+    font-size: 200%;
     position: absolute;
     bottom: 30px;
-    width: 43px;
+    width: 100%;
     min-height: 165px;
     padding-top: 25px;
     padding-left: 60px;
@@ -216,7 +221,7 @@ main {
  }
 
 .light-on-black-background {
-    color:  #d3d3d3;
+    color:  #d3d3d3 !important;
     /* background-color: black; */
 }
 
@@ -238,7 +243,7 @@ form>h2 {
 
 
 #about-text {
-    width: 600px;
+    width: 60vw;
     /* height: 300px; */
     border: 1px solid black;
     display: flex;
@@ -258,8 +263,11 @@ form>h2 {
 }
 
 #about-portrait {
-    align-items: center;
-    padding-top: 9%;
+    /* align-items: center; */
+    /* margin-left: 30px; */
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2%;
 }
 
 .right {
@@ -388,7 +396,7 @@ h3.gallery-display {
     /* width: 200px; */
     /* height: 90vh; */
     /* object-fit: contain; */
-    width: 100vw;
+    width: 100%; /* 100vw; */
     /* width: 92%; */
     /* max-height: 92%; */
 }
@@ -446,7 +454,13 @@ html, body {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem; /* check this for what value it should be, Sarah discovered it! */
+        align-items: baseline;
     }
+
+    header {
+        align-items: baseline; /* align-items: center;*/
+    }
+
 
     #menu {
         display: flex;
@@ -500,6 +514,14 @@ html, body {
     .send-button {
         justify-content: right;
     }
+
+    #display-image-size {
+        /* width: 200px; */
+        /* height: 90vh; */
+        /* object-fit: contain; */
+        /* width: 70%; /* 100vw; */
+        width: 450px;
+    }
 }
 
 /*--------------- (laptops and desktops, 992px and up) -----------------*/
@@ -533,10 +555,6 @@ html, body {
     color: black
 }
 
-header {
-    align-items: baseline; /* align-items: center;*/
-}
-
 #logo {
     height: auto;
     width: 200px;
@@ -557,11 +575,11 @@ p.gallery-display {
     text-justify: inter-word;
 }
 
-#display-image-size {
+/* #display-image-size { */
     /* width: 200px; */
-    height: 70%;
+    /* height: 70%; */
     /* object-fit: contain; */
     /* width: 100vw; */
     /* width: 92%; */
     /* max-height: 92%; */
-}
+/* } */
