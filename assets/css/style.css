@@ -21,11 +21,9 @@ body {
     margin-left: auto;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'Spectral SC', serif; */
     font-family: 'Open Sans Regular 400', 'Montserrat', sans-serif;
 }
 
@@ -36,9 +34,10 @@ body {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed; /* reason for links not scrolling to correct place*/
+    position: fixed;
+    /* reason for links (without compensation) not scrolling to correct place on page*/
     z-index: 98;
-    width:100%;
+    width: 100%;
     box-shadow: 0 2px 3px #3a3a3a;
     display: flex;
     justify-content: space-between;
@@ -48,19 +47,9 @@ header {
 
 /*--------------- LOGO FOR MOBILE FIRST CASE (BELOW 768 WIDTH) -----------------*/
 #logo {
-    /* line-height: 75px; SEAN */
-    /* margin: 0 0.5rem; SEAN */
-    /* padding-top: 20%; */
-    /* object-fit: contain; SEAN */
-    /* width: 200px; SEAN */
-    /* height: 100px; */
-    /* testing line-height to see if it takes away the space above and below the logo */
-    /* line-height: 0; */
-    /* object-fit: scale-down; */
     height: auto;
     width: 150px;
     display: block;
-    /*padding: 10px; */
     padding-top: 30px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -81,16 +70,13 @@ h2 {
     padding-top: 50px;
     padding-bottom: 20;
 
-  }
+}
 
 #menu {
-    /* font-size: 110%; SEAN */
-    /* letter-spacing: 4px; SEAN */
-    /* list-style-type: none; SEAN */
     margin-top: 20px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -118,40 +104,36 @@ nav {
 
 #nav-toggle {
     display: none;
-    /* vertical-align: middle; */
     text-align: center;
 }
 
 .nav-toggle-label {
     font-size: 2rem;
-    /* margin-bottom: 2rem; */
-    /* vertical-align: middle; */
     text-align: center;
 }
 
 
 /*--------------- MAIN CONTENT -----------------*/
 main {
-    /* background-color: red; */
     /* make main element take up any surplus space to push foter down*/
     flex: 1 0 auto;
-    margin-top: 108px /* 130.88px;*/
+    margin-top: 108px
 }
 
 /*--------------- HERO SECTION -----------------*/
 #hero {
     height: 600px;
     width: 100%;
-    /* background: url("../images/heroimages/heroimage-mystical-forrest-1748.jpg") no-repeat center center/cover; */
     background: url("../images/heroimages/heroimage-dreamy-summers-night-at-danvikstull-2000.jpg") no-repeat center center/cover;
+    /* Other potential hero images */
+    /* background: url("../images/heroimages/heroimage-mystical-forrest-1748.jpg") no-repeat center center/cover; */
     /* background: url("../images/heroimages/heroimage-path-to-the-horizon-2000.jpg") no-repeat center center/cover;*/
     position: relative;
     margin-bottom: 40px;
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background: rgba(185, 187, 182, 0.7); /* #B9BBB6;  #D6CFC7  rgba(195, 110, 80, 0.7); */
+    background: rgba(185, 187, 182, 0.7);
     font-size: 200%;
     position: absolute;
     bottom: 30px;
@@ -161,98 +143,95 @@ main {
     padding-left: 60px;
 }
 
-#cover-text > h3 {
-    color:black;
+#cover-text>h3 {
+    color: black;
 }
 
-#cover-text > h4 {
-    color:#ffffff;
+#cover-text>h4 {
+    color: #ffffff;
 }
 
 
 /*--------------- 3W SCHOOL CODE SNITPPET FOR "ZOOM ON HOVER" MODIFIED TO THIS SITE" -----------------*/
 * {
     box-sizing: border-box;
-  }
-  
-  .zoom {
+}
+
+.zoom {
     padding: 50px;
     transition: transform .1s;
     width: 200px;
     height: 300px;
     margin: 0 auto;
-  }
-  
-  .zoom:hover {
+}
+
+.zoom:hover {
     /* -ms-transform: scale(1.5); /* IE 9 */
     /* -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.6);
     aspect-ratio: unset;
     height: unset;
-  }
+}
 
 /*--------------- IMAGE IN GALLERY -----------------*/
 .gallery img {
     object-fit: cover;
     width: 100%;
-    max-width: 350px; /* CHECK IF THIS CAN BE TAKEN AWAY TO SOLVE PROBLEM OF IMAGES NOT GOING FULL OUT */
+    max-width: 350px;
     aspect-ratio: 1;
-    /* height: 100px; */
     line-height: 1em;
 }
 
 .gallery {
-    max-width: 1000px;  /* B */
-    margin-left: auto;  /* B */
-    margin-right: auto;  /* B */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 0px;
 }
 
 
 /*--------------- WORK, ABOUT AND CONTACT -----------------*/
-#about, #contact {
+#about,
+#contact {
     width: 100%;
     background-color: black;
-    padding-top: 138px; /* 138px; */
+    padding-top: 138px;
 }
 
 #work {
-     padding-top: 138px;
- }
+    padding-top: 138px;
+}
 
 .light-on-black-background {
-    color:  #d3d3d3 !important;
-    /* background-color: black; */
+    color: #d3d3d3 !important;
 }
 
 /*--------------- ABOUT -----------------*/
 
 form>h2 {
-    color:  black;
-    /* background-color: black; */
+    color: black;
 }
-  
-  #main div {
+
+#main div {
     flex: 1;
     border: 1px solid black;
     display: flex;
     align-items: center;
-  }
+}
 
 
 
 
 #about-text {
     width: 60vw;
-    /* height: 300px; */
     border: 1px solid black;
     display: flex;
     align-items: center;
     padding-left: 0px;
     padding-right: 30px;
     Padding-top: 20px;
-    max-width: 600px;  /* B */
-    margin-left: auto;  /* B */
+    max-width: 600px;
+    margin-left: auto;
     margin-right: auto;
     flex: 1;
     border: 1px solid black;
@@ -263,8 +242,6 @@ form>h2 {
 }
 
 #about-portrait {
-    /* align-items: center; */
-    /* margin-left: 30px; */
     margin-right: auto;
     margin-left: auto;
     padding-top: 2%;
@@ -277,7 +254,6 @@ form>h2 {
 
 /*--------------- FORM -----------------*/
 #contact {
-    /* background-image: url("../images/signup-image.webp");*/
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -314,7 +290,6 @@ form>h2 {
     background: transparent;
     color: #fafafa;
     width: 100%;
-    /* height: 50px; */
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
@@ -328,9 +303,6 @@ form>h2 {
     font-size: 120%;
     background-color: orange;
     color: color: #3a3a3a;
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* justify-content: flex-end; */
 }
 
 text-area {
@@ -361,9 +333,6 @@ footer {
     color: black;
 }
 
-/* #artfinder-logo {
-    height: 33px;
-} */
 
 /*--------------- GALLERY DISPLAY PAGES -----------------*/
 
@@ -381,24 +350,15 @@ h3.gallery-display {
 .gallery-display {
     background-color: black;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding-top: 0px;
-    /* padding-left: 20; /* 20px*/
-    /* padding-right: 20px; /* 20px*/
     padding-bottom: 0px;
-    /* gap: 30px; */
     flex-direction: column;
-    color:  #d3d3d3;
-  }
+    color: #d3d3d3;
+}
 
 #display-image-size {
-    /* width: 200px; */
-    /* height: 90vh; */
-    /* object-fit: contain; */
-    width: 100%; /* 100vw; */
-    /* width: 92%; */
-    /* max-height: 92%; */
+    width: 100%;
 }
 
 /* back arrow */
@@ -409,26 +369,33 @@ h3.gallery-display {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 5px;
-  }
+}
 
 
 #biglink {
     display: block;
     width: 100%;
     height: 100%;
-    text-indent: -2000px; /* to move the text out of the visible area */
+    text-indent: -2000px;
+    /* to move the text out of the visible area */
 }
 
-html, body {
-    height: 100%; /* or the height property above will not work */
-    margin: 0; /* to avoid scrollbars */
+html,
+body {
+    height: 100%;
+    /* or the height property above will not work */
+    margin: 0;
+    /* to avoid scrollbars */
     padding: 0;
-    }
+}
 
 /*------------------------------ MISCELLANEOUS-------------------------*/
-html, body {
-    height: 100%; /* or the height property above will not work */
-    margin: 0; /* to avoid scrollbars */
+html,
+body {
+    height: 100%;
+    /* or the height property above will not work */
+    margin: 0;
+    /* to avoid scrollbars */
     padding: 0;
 }
 
@@ -447,18 +414,20 @@ html, body {
 
 /*--------------- tablets and larger (768 and up) -----------------*/
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem; /* check this for what value it should be, Sarah discovered it! */
+        padding-right: 1rem;
         align-items: baseline;
     }
 
     header {
-        align-items: baseline; /* align-items: center;*/
+        align-items: baseline;
+        /* align-items: center;*/
     }
 
 
@@ -466,7 +435,7 @@ html, body {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -477,13 +446,8 @@ html, body {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 133.44px;/*79px; */
+        margin-top: 133.44px;
     }
-
-    /* Work */
-   /*  #photos {
-        column-count: 3;
-    } */
 
     .gallery {
         column-count: 3;
@@ -511,15 +475,12 @@ html, body {
         background-color: orange;
         color: orange;
     }
+
     .send-button {
         justify-content: right;
     }
 
     #display-image-size {
-        /* width: 200px; */
-        /* height: 90vh; */
-        /* object-fit: contain; */
-        /* width: 70%; /* 100vw; */
         width: 450px;
     }
 }
@@ -538,16 +499,17 @@ html, body {
 
 /*--------------- (laptops and desktops, 1200px and up) -----------------*/
 @media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
-    }   
+    }
 }
 
 #menu {
     list-style: none;
-	margin-top: 20px;
+    margin-top: 20px;
     margin-left: 30px;
 }
 
@@ -559,11 +521,6 @@ html, body {
     height: auto;
     width: 200px;
     display: block;
-    /* padding: 10px; */
-    /* padding-top: 30px; */
-    /* padding-right: 10px; */
-    /* padding-bottom: 10px; */
-    /* padding-left: 10px; */
 }
 
 textarea {
@@ -574,12 +531,3 @@ p.gallery-display {
     text-align: justify;
     text-justify: inter-word;
 }
-
-/* #display-image-size { */
-    /* width: 200px; */
-    /* height: 70%; */
-    /* object-fit: contain; */
-    /* width: 100vw; */
-    /* width: 92%; */
-    /* max-height: 92%; */
-/* } */
