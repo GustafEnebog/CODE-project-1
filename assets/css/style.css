@@ -150,7 +150,7 @@ main {
     font-size: 250%;
     position: absolute;
     bottom: 30px;
-    width: 43%;
+    width: 43px;
     min-height: 165px;
     padding-top: 25px;
     padding-left: 60px;
@@ -204,35 +204,28 @@ main {
 }
 
 
-/*--------------- ABOUT AND CONTACT -----------------*/
+/*--------------- WORK, ABOUT AND CONTACT -----------------*/
 #about, #contact {
     width: 100%;
     background-color: black;
-    padding-top: 200px; /* 138px; */
+    padding-top: 138px; /* 138px; */
 }
 
-/*--------------- ABOUT -----------------*/
 #work {
-    padding-top: 138px;
-}
+     padding-top: 138px;
+ }
 
 .light-on-black-background {
     color:  #d3d3d3;
     /* background-color: black; */
 }
 
+/*--------------- ABOUT -----------------*/
+
 form>h2 {
     color:  black;
     /* background-color: black; */
 }
-
-#XXXXXXXX {
-    width: 220px;
-    height: 300px;
-    border: 1px solid black; 
-    display: flex;
-    align-items: center;
-  }
   
   #main div {
     flex: 1;
@@ -245,14 +238,15 @@ form>h2 {
 
 
 #about-text {
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    /* height: 300px; */
     border: 1px solid black;
     display: flex;
     align-items: center;
     padding-left: 0px;
     padding-right: 30px;
-    max-width: 1000px;  /* B */
+    Padding-top: 20px;
+    max-width: 600px;  /* B */
     margin-left: auto;  /* B */
     margin-right: auto;
     flex: 1;
@@ -264,7 +258,7 @@ form>h2 {
 }
 
 #about-portrait {
-    float: left;
+    align-items: center;
     padding-top: 9%;
 }
 
@@ -483,12 +477,12 @@ html, body {
     }
 
     /* Form */
-    #signup {
+    #contact {
         background-position: center;
         position: relative;
     }
 
-    #signup-form {
+    #message-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
@@ -520,13 +514,13 @@ html, body {
     }
 }
 
+/*--------------- (laptops and desktops, 1200px and up) -----------------*/
 @media screen and (min-width: 1200px) {
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
-    }
-    
+    }   
 }
 
 #menu {
