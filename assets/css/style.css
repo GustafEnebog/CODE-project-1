@@ -65,7 +65,7 @@ header {
 h2 {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 20;
+    padding-bottom: 20px;
 
 }
 
@@ -87,7 +87,7 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 irem;
+    padding: 0 rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -172,7 +172,7 @@ main {
     object-fit: cover;
     width: 100%;
     max-width: 350px;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
     line-height: 1em;
 }
 
@@ -296,7 +296,7 @@ form>h2 {
     padding: 20px 40px;
     font-size: 120%;
     background-color: orange;
-    color: color: #3a3a3a;
+    color: #3a3a3a;
 }
 
 text-area {
