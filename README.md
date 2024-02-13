@@ -15,7 +15,7 @@ subject and message has black backgrounds.
 In Firefox portrait in about section is no longer centered and form have slided down into the footer
 
 
-![Image of site on different sized devices.](assets/images/enebogart-logo.png)
+![Image of site on different sized devices.](assets/images/readme/amiresponsive-enebog-art.jpg)
 
 # My Art portfolio Page
 This art portfolio website is a shop window for my art and a place where I can market myself as an artist.
@@ -25,11 +25,23 @@ Users of this website will be able to view a selection of my art and upcoming ev
 
 
 ## Features
-![Screenshot of header](assets/images/enebogart-logo.png)
+![Favicon](assets/images/readme/android-chrome-192x192-enebogart.png)
 
+### Favicon
 
-![Screenshot of the navbar for small devices.](assets/images/enebogart-logo.png)
-![Screenshot of the navbar for large devices.](assets/images/enebogart-logo.png)
+  + favicon
+
+![Favicon](assets/images/readme/android-chrome-192x192-enebogart.png)
+![Large Device - "About"-section.](assets/images/readme/about-laptop.jpg)
+
+![Mobil - "About"-section.](assets/images/readme/about-iphon14promax.jpg)
+![Large Device - "About"-section.](assets/images/readme/about-laptop.jpg)
+
+![Mobil - "Header"-section.](assets/images/readme/header-iphon14promax.jpg)
+![Mobil - "Header"-section.](assets/images/readme/nav-elements-iphon14promax.jpg)
+![Mobil - "Header"-section.](assets/images/readme/header-iphon14promax.jpg)
+![Large Device - "Header"-section.](assets/images/readme/header-laptop.jpg)
+
 
 ### The header with the navigation bar
 
@@ -42,35 +54,43 @@ Users of this website will be able to view a selection of my art and upcoming ev
   + A click anywhere on an individual art page takes the user back to the last place he was at on the main page.  
 
 
-![Screenshot of whero image for small and large devices.](assets/images/enebogart-logo.png)
+![Mobil - "Hero"-image.](assets/images/readme/hero-iphon14promax.jpg)
+![Large Device - "Hero"-image.](assets/images/readme/hero-laptop.jpg)
 
 + The top of the page “introductory”-“attention grabbing”-“lateset”image
   + The top of the page features a high-resolution image of an art piece with a text overlay to give the user a wow-effect to grab the users attention
   + MORE HERE
 
-![Screenshot of works for small and large devices.](assets/images/enebogart-logo.png)
+![Mobil - "Work"-section.](assets/images/readme/work-iphon14promax.jpg)
+![Large Device - "Work"-section.](assets/images/readme/work-laptop.jpg)
 
 ### The Works-section
   + The Works-section displays three galleries with nine art pieces each displayed in a 3x3 grid
   + The images of the art-pieces zooms to a larger size when hovered and can be clicked if the user want to see a larger display of the art piece. The user is then taken to a separate display page (unique for each art piece) where the art is annotated and display in a larger size. Currently the display page of only one art pieces has been implemented which is the first image (braided flask).
 
-![Screenshot of works for small and large devices.](assets/images/enebogart-logo.png)
+![Mobil - "About"-section.](assets/images/readme/about-iphon14promax.jpg)
+![Large Device - "About"-section.](assets/images/readme/about-laptop.jpg)
 
 ### The full-size display-page
   + A selection of the artist art-pieces organized in a rectangular grid.
 
-![Screenshot of about for small and large devices.](assets/images/enebogart-logo.png)
+![Mobil - "Display"-page.](assets/images/readme/display-page-iphon14promax.jpg)
+![Large Device - "Display"-page.](assets/images/readme/display-page-laptop.jpg)
 
 ### The ABOUT-section
   + This section features a photo of the artist together with a short bio explaining his process, favorite motives and mediums and his reasons for drawing and painting.
 
-![Screenshot of contact for small and large devices.](assets/images/enebogart-logo.png)
+![Mobil - "About"-section.](assets/images/readme/contact-w-form-iphon14promax.jpg)
+![Large Device - "About"-section.](assets/images/readme/contact-w-form-laptop.jpg)
+![Large Device - "Form"-submit confirmation.](assets/images/readme/form-submit-confirmation.jpg)
 
-### The Contact-section
+### The Contact-section with form
   + The contact section provides postal address, email and telephone number to the artist as well as non-interactive map showing where in Europe the artist is based. All fields (except subject) are reqiered to be filled in and filled in correctly before the message is allowed to be submitted.
   + The contact section also provide a form which the user can use as a way of reaching out to the artist directly.
   + A call-to-action button linking to a “Get in touch forms/contact ”SCREEN SHOOT OF FOOTER
-![Screenshot of Footer for small and large devices.](assets/images/enebogart-logo.png)
+
+![Mobil - "Footer"-section.](assets/images/readme/footer-iphon14promax.jpg)
+![Large Device - "Footer"-section.](assets/images/readme/footer-laptop.jpg)
 
 ### The Footer
 + xxxxxxx
@@ -164,17 +184,17 @@ as well as different standard screen sizes testing the responsive design.
 + HTML using the the W3C validator
 	+ CSS using Jigsaw
 
-![Screenshot of the navbar for small devices](assets/images/enebogart-logo.png)
+![Result from test with official Jigsaw CSS-validator](assets/images/readme/css-validator.jpg)
 + The website’s Accessibility was also tested using Chrome Dev tools official
 + 	
-![Screenshot of the navbar for small devices](assets/images/enebogart-logo.png)
+![HTML official W3C-validator](assets/images/readme/html-validator.jpg)
 
 SCREENSHOT LIGHTHOUSE
 
-![Screenshot of the navbar for small devices](assets/images/enebogart-logo.png)
+![Lighthouse](assets/images/readme/chrome-dev-tools-lighthouse.jpg)
+![Lighthouse point of improvement](assets/images/readme/lighthouse-accesibility-improve.jpg)
 
 
- 
 ### Bugs
 + Fixed bugs:
   + Change in logo and header height would not come through due to conflicting css-rules
@@ -207,6 +227,7 @@ SCREENSHOT LIGHTHOUSE
   + Add slider/carousel for the Hero image
 + NO BUCKET
 
+![Deployment](assets/images/readme/deployment.jpg)
 ### Deployment
 + The site was deployed to GitHub pages. The steps to deploy are as follows:
   + Log in to GitHub and locate the GitHub Repository.
@@ -240,6 +261,10 @@ The idea was further to reduce loading times by zipping files using “tinyPNG�
 ++ My Bonsai Page - mittnamnkenny
 
 ### Media
+
+The code for the header with navbar, form and footer from Code Institute's "Love Running" was used as a starting point for my code.
+
+
 Zoom on hover
 The five pillars of webdesign by Jesse James Garrett
 This webpage has its first implementation in a Squarespace-version of this site (Also including the artist art courses which is omitted on this site). This new implementation has improved on weak points of the first implementation which was:

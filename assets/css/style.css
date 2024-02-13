@@ -28,6 +28,7 @@ body {
 }
 
 /*--------------- HEADER -----------------*/
+/*----- The code from Code Institute's "Love Running" was used as a starting point for the header with nav. -----*/
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -246,6 +247,7 @@ form>h2 {
 }
 
 /*--------------- FORM -----------------*/
+/*----- The code from Code Institute's "Love Running" was used as a starting point for the Form. -----*/
 #contact {
     width: 100%;
     background-size: cover;
@@ -307,6 +309,7 @@ text-area {
 }
 
 /*--------------- FOOTER -----------------*/
+/*----- The code from Code Institute's "Love Running" was used as a starting point for the footer. -----*/
 footer {
     background-color: white;
 }
