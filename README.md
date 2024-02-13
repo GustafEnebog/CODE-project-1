@@ -71,14 +71,14 @@ Users of this website will be able to view a selection of my art and upcoming ev
 ![Mobil: "Footer"-section.](assets/images/readme/footer-iphon14promax.jpg)
 ![Large Device: "Footer"-section.](assets/images/readme/footer-laptop.jpg)
 
-+ Features remaining to be implemented
-  + Make carousel/slide show of the Hero-image on the top of the page.
-  + Add display pages for all art works in the Work-section.
-  + Make carousel/slide show of the display pages as to be able to show close-ups of details and "the making of"-pictures.
-  + Responsive design on the art display page to make the image (with annotation) perfectly filling the screen without distorting or overflowing.
-  + Possibly replacing the display-pages with a display directly in the Work-section using a modal screen.
-  + Returning from the display page to the main page should place the user exactly on the art piece in the work-section **where he originaly came** from instead of, as it is now, at the **top** of the main page.
-  + Original idea for a more irregular gallery wall.
+### Features remaining to be implemented
++ Make carousel/slide show of the Hero-image on the top of the page.
++ Add display pages for all art works in the Work-section.
++ Make carousel/slide show of the display pages as to be able to show close-ups of details and "the making of"-pictures.
++ Responsive design on the art display page to make the image (with annotation) perfectly filling the screen without distorting or overflowing.
++ Possibly replacing the display-pages with a display directly in the Work-section using a modal screen.
++ Returning from the display page to the main page should place the user exactly on the art piece in the work-section **where he originaly came** from instead of, as it is now, at the **top** of the main page.
++ Original idea for a more irregular gallery wall.
 
 ## Design
 + Since the users can be expected to often be older and less IT-savvy the website needs to be very simple and intuitive and should remain so even if more content is being added. The solution to this is a single page website with a header where the logo and navbar is always visible. As this is an artist website showing of Art, the Surface Plane with its graphics is arguably more important than the sites functional features (providing they all work, that is) since this is to work in concert with, and enhance the content. The minimalistic, uncluttered, and sober graphics of the site are not only modern and user friendly for less it-savvy artist lovers but it does also provide the perfect setting for displaying art much like the simple white walls in a real art gallery.
