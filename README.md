@@ -12,6 +12,7 @@ Subject is not required
 
 Remaining bugs
 subject and message has black backgrounds.
+In Firefox portrait in about section is no longer centered and form have slided down into the footer
 
 
 ![Image of site on different sized devices.](assets/images/enebogart-logo.png)
