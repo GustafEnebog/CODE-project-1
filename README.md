@@ -1,20 +1,4 @@
 
-Compression of word files
-Mix of black and white boxes in form!!!
-Glöm inte atts kapa hyperlänkar som Bonsai
-Saved jpg with progressive check box checked so that a lower grade resolution image load first before the higher res…
-Add screenshots to readme
-should I wrap long paragraphs!?
-write that the jpg images are saved as progressive
-color on cover text  rgba(185, 187, 182, 0.7);
-The display page is not responsive
-Subject is not required
-
-Remaining bugs
-subject and message has black backgrounds.
-In Firefox portrait in about section is no longer centered and form have slided down into the footer
-
-
 ![Image of site on different sized devices.](assets/images/readme/amiresponsive-enebog-art.jpg)
 
 # My Art portfolio Page
@@ -159,39 +143,29 @@ Fontpair.coxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ## Testing
 ### Manual testing
 + I have manually tested that:
-	++ the links work and land you on the correct page or correct section within the page
-	++ a wrong input, e.g. email address field without an @-sign receive a complaint as well as a form submission-button-click results in a confirmation page
- 
-  + I have tested that the links in the header works correctly.
-  + I have tested that the navigation links work and the user is directed to the correct sections of the page.
-  + I have tested that the navigation links change text colour when hovering over.
-  + I have tested that the external link in the about section opens in a new tab and that the address is correct.
-  + I have tested that name, email and message is required to submit the form in the contact section.
-  + I have tested that the email input field must contain @ symbol to submit the form in the contact section.
-  + I have tested that the form submit button change text colour when hovering over.
+	+ the links work and land you on the correct page or correct section within the page
+	+ a wrong input, e.g. email address field without an @-sign receive a complaint as well as a form submission-button-click results in a confirmation page
+  + the links in the header works correctly.
+  + the navigation links work and the user is directed to the correct sections of the page.
+  + the navigation links change text colour when hovering over.
+  + the external link in the about section opens in a new tab and that the address is correct.
+  + name, email and message is required to submit the form in the contact section.
+  + the email input field must contain @ symbol to submit the form in the contact section.
+  + the form submit button change text colour when hovering over.
   + “zoom on hover” work in gallery-section
-+ Browser testing
-+ Manual testing has been carried out using different browsers: Chrome, Firefox and Safari 
-+ Responsiveness
-as well as different standard screen sizes testing the responsive design.
-+ Validator testing
-  + CSS and code was tested using a free software from W3C https://jigsaw.w3.org/css-validator/
-  + Only Java script!?: (https://jshint.com/)
-  + Lighthouse (Chrome developer tools) to test for performance, accessibility, progressive web apps, SEO, and more.
-+ Githubs built in code-beautify function
++ Manual testing has been carried out on:
+  + Different browsers: Chrome and Firefox (Safari as not been tested) where a a bug in the form element was appearing in Firefox 
+  + Responsiveness using different standard screen sizes testing the responsive design.
+
 ### Validator Testing
 + All code was tested for syntactical errors with perfect results using official validators:
-+ HTML using the the W3C validator
-	+ CSS using Jigsaw
-
-![Result from test with official Jigsaw CSS-validator](assets/images/readme/css-validator.jpg)
-+ The website’s Accessibility was also tested using Chrome Dev tools official
-+ 	
++ HTML using the the ![W3C validator](https://jigsaw.w3.org/css-validator/)
 ![HTML official W3C-validator](assets/images/readme/html-validator.jpg)
-
-SCREENSHOT LIGHTHOUSE
-
++ CSS using Jigsaw
+![Result from test with official Jigsaw CSS-validator](assets/images/readme/css-validator.jpg)
++ Lighthouse (Chrome developer tools) to test for performance, accessibility, progressive web apps, SEO, and more.
 ![Lighthouse](assets/images/readme/chrome-dev-tools-lighthouse.jpg)
++ It is a countioous decistion to not improve on the suggestion by lighthouse since this interferes with the principle of readabiltiy
 ![Lighthouse point of improvement](assets/images/readme/lighthouse-accesibility-improve.jpg)
 
 
@@ -227,16 +201,24 @@ SCREENSHOT LIGHTHOUSE
   + Add slider/carousel for the Hero image
 + NO BUCKET
 
+  Compression of word files
+Mix of black and white boxes in form!!!
+Glöm inte atts kapa hyperlänkar som Bonsai
+Saved jpg with progressive check box checked so that a lower grade resolution image load first before the higher res…
+Add screenshots to readme
+should I wrap long paragraphs!?
+write that the jpg images are saved as progressive
+color on cover text  rgba(185, 187, 182, 0.7);
+The display page is not responsive
+Subject is not required
+
+Remaining bugs
+subject and message has black backgrounds.
+In Firefox portrait in about section is no longer centered and form have slided down into the footer
+
+
 ![Deployment](assets/images/readme/deployment.jpg)
 ### Deployment
-+ The site was deployed to GitHub pages. The steps to deploy are as follows:
-  + Log in to GitHub and locate the GitHub Repository.
-  + In the GitHub repository, navigate to the "Settings" tab.
-  + In Settings, choose "Pages" from the left hand menu.
-  + Under "Source", select branch "Main" and select folder "(Root)".
-  + Click Save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-
 + Go to your GitHub repo and choose the **settings** tab and then **Pages** on the left-hand sidebar and then make sure that the following is set as below:
   + **Sources** is set to ‘Deploy from Branch’
   + **Main** branch is selected.
@@ -245,7 +227,6 @@ SCREENSHOT LIGHTHOUSE
 + Go to the **github-pages** under the **Deployment** section, further down on the right hand side.
 + Now you can see the URL to your deployed site under **Active deployments**. Click on the URL to go to your site. The URL will follow the following format: your-username.github.io/your project name/
 
-
 ### Miscellaneous
 + Commit messages
 A review of the commit messages for the first 12 days of programming showed that the soft rule of max 50 characters was broken with 10 characters on average. Furthermore, the hard rule of max 72 characters was (out of the 44 commits) broken in 30% of the commits. The commits after this point was improved both in number of characters and in terms of text.
@@ -253,30 +234,27 @@ A review of the commit messages for the first 12 days of programming showed that
   + The large images was reduced to the approximate size it was to be displayed at. The Hero image was set to to 2000px based on a largest common desktop screen size width of 1920px. The width of the gallery images displayed on index.html was set to 900px. This was determined based on a three row column with a 150% “zoom on hover”: 1,5*(1920/3)=960. Taking this number minus padding and we would end up with roughly 900 px. 
   + A further adaption of image sizes for smaller screens has not yet been carried out due to time constraints.
 The idea was further to reduce loading times by zipping files using “tinyPNG” or similar to create .zip or .rar files however efforts to find out if this was at all possible was abandoned due to time constraint reasons.
+
 ## Credits
-### Content
-+ The code to make the social media links was taken from the CI Love Runnings Project.
-+ Readme of
-++ Coding Club
-++ My Bonsai Page - mittnamnkenny
+### Readme
++ Inspiration for this readme-file has been taken from the readme-files of:
+  + Code Institute "Coding Club"
+  + Code Institues "Love Running"
+  + My Bonsai Page by mittnamnkenny
 
-### Media
+### Code
++ The code for the header with navbar, form and footer from Code Institute's "Love Running" was used as a starting point for my code.
++ Code that is supposed to making the whole page clickable (not just back arrow) is taken from a forum however I am sorry to say that I have not been able to retrieve the source back to give credit
++ "Zoom on Hoover" code snippet from 3W Schools has been used and modified to make images in the galleries in the work-section zoom when they are being hovered. 
+![3W Schools "zoom on hover"](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
 
-The code for the header with navbar, form and footer from Code Institute's "Love Running" was used as a starting point for my code.
+### Earlier implementation
++ The Features and Design sections has been based on Jesse James Garretts five pillars of webdesign.
++ Enebog art has already been implemented in a Squarespace-version. This new version has a changed design and it improves on weak points of this first version:
+  + The all-important art was not displayed directly upfront but one or two clicks away
+  + Even after one click all of the art was not displayed in one single grid but required the user to step through each gallery one picture at a time.
+  + The about and contact sections was separated albeit they fitted well together.
 
-
-Zoom on hover
-The five pillars of webdesign by Jesse James Garrett
-This webpage has its first implementation in a Squarespace-version of this site (Also including the artist art courses which is omitted on this site). This new implementation has improved on weak points of the first implementation which was:
-The all-important art was not displayed directly upfront but one or two clicks away
-This webpage has its first implementation in a Squarespace-version of this site (Also including the artist art courses which is omitted on this site). This new implementation has improved on weak points of the first implementation which was:
-The all-important art was not displayed directly upfront but one or two clicks away
-+ Even after one click all of the art was not displayed in one single grid but required the user to step through each gallery one picture at a time.
-+ The about and contact sections was separated albeit they intuitively belong together 
-Although the header and footer was decided beforehand it did almost perfectly coincided with that of the “love running”-site so this was used as a code base.
-Give credit for 2 code snippets
-Change logo size! Might be reason for overflow
-ami
 ### Acknowledgement
 A special thanks to my mentor at Code Institute for most helpful input.
 
