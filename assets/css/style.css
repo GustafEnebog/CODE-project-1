@@ -222,7 +222,7 @@ form>h2 {
     align-items: center;
     padding-left: 0px;
     padding-right: 30px;
-    Padding-top: 20px;
+    padding-top: 20px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -237,6 +237,7 @@ form>h2 {
 #about-portrait {
     text-align: center;
     padding-top: 0%;
+    width: 250px;
 }
 
 .right {
