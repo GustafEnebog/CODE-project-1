@@ -147,7 +147,6 @@ A font-matching-tool has been used to test combinations of "header-fonts" and "p
 + Remaining bugs:
   + The form flows down into the footer (or vice versa) in Firefox.
   + The "click-anywhere-on-page"-link on the display page has stopped working in the last versions.
-  + To late before the submission the artist portrait was discovered to be no longer horisontaly centered.
 
 ### Deployment
 + Go to your GitHub repo and choose the **settings** tab and then **Pages** on the left-hand sidebar and then make sure that the following is set as below:
