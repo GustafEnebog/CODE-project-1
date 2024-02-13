@@ -364,6 +364,7 @@ h3.gallery-display {
     padding-bottom: 5px;
 }
 
+/*---- Code that is supposed to making the whole page clickable (not just back arrow) is taken from a forum however I am sorry to say that I have not been able to retrieve the source back to give credit ----*/
 #biglink {
     display: block;
     width: 100%;
