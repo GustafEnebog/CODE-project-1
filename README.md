@@ -37,7 +37,7 @@ Users of this website will be able to view a selection of my art and upcoming ev
 
 ### The Works-section
   + The Works-section displays three galleries with nine art pieces each displayed in a 3x3 grid.
-  + The images of the art-pieces zooms to a larger size when hovered (see the zoomed image of the braided flask below).
+  + The images of the art-pieces zooms to a larger size when hovered on larger displays (see the zoomed image of the braided flask below).
   + The user can click an art-piece if he want to see a larger display of it.
   + Currently the display page of only one art pieces has been implemented which is the first image (braided flask).
 
@@ -52,6 +52,7 @@ Users of this website will be able to view a selection of my art and upcoming ev
 
 ### The ABOUT-section
   + This section features a photo of the artist together with a short bio explaining his process, favorite motives and mediums and his reasons for drawing and painting.
+  + A splach of white ink (taken from the Enebog-logo) has been added as an accent.
 
 ![Mobil: "About"-section.](assets/images/readme/about-iphon14promax.jpg)
 ![Large Device: "About"-section.](assets/images/readme/about-laptop.jpg)
@@ -63,7 +64,6 @@ Users of this website will be able to view a selection of my art and upcoming ev
 
 ![Mobil: "Contact"-section.](assets/images/readme/contact-w-form-iphon14promax.jpg)
 ![Large Device: "Contact"-section.](assets/images/readme/contact-w-form-laptop.jpg)
-![Large Device: "Form"-submit confirmation page.](assets/images/readme/form-submit-confirmation.jpg)
 
 ### The Footer
 + The footer contain icons linking to all the places the artist can be found in social media including a link to the London based online gallery, Artfinder, where Enebog’s art can be acquired.
@@ -77,11 +77,11 @@ Users of this website will be able to view a selection of my art and upcoming ev
   + Make carousel/slide show of the display pages as to be able to show close-ups of details and "the making of"-pictures.
   + Responsive design on the art display page to make the image (with annotation) perfectly filling the screen without distorting or overflowing.
   + Possibly replacing the display-pages with a display directly in the Work-section using a modal screen.
-  + Returning from the display page to the main page should place the user exactly on the art piece in the work-section **where he originaly came** from instead of, as it is now, to the **top** of the main page.
+  + Returning from the display page to the main page should place the user exactly on the art piece in the work-section **where he originaly came** from instead of, as it is now, at the **top** of the main page.
   + Original idea for a more irregular gallery wall.
 
 ## Design
-+ Since the users can be expected to often be older and less IT savvy the website needs to be very simple and intuitive and should remain so even if more content is being added. The solution to this is a single page website with a header where the logo and navbar is always visible. As this is an artist website showing of Art, the Surface Plane with its graphics is arguably more important than the sites functional features (providing they all work, that is) since this is to work in concert with, and enhance the content. The minimalistic, uncluttered, and sober graphics of the site are not only modern and user friendly for less it-savvy artist lovers but it does also provide the perfect setting for displaying art much like the simple white walls in a real art gallery.
++ Since the users can be expected to often be older and less IT-savvy the website needs to be very simple and intuitive and should remain so even if more content is being added. The solution to this is a single page website with a header where the logo and navbar is always visible. As this is an artist website showing of Art, the Surface Plane with its graphics is arguably more important than the sites functional features (providing they all work, that is) since this is to work in concert with, and enhance the content. The minimalistic, uncluttered, and sober graphics of the site are not only modern and user friendly for less it-savvy artist lovers but it does also provide the perfect setting for displaying art much like the simple white walls in a real art gallery.
 
 ![Wireframe](Wireframe-p1.png "initial wireframe")
 
@@ -103,7 +103,7 @@ A font-matching-tool has been used to test combinations of "header-fonts" and "p
 + [Balsamiq:](https://balsamiq.com/) Super nice program for creating wireframe drafts of the website.
 + [Fontpair:](Fontpair.co) was used to test combinations of fonts.
 + [Krita:](https://krita.org/en/) Used for creating, editing and re-sizing images (bitmap art).
-+ [Clip Studio Paint:](https://www.clipstudio.net/en/) Used for creating and editing vectorgraphics-art such as the Enebog-logo.
++ [Clip Studio Paint:](https://www.clipstudio.net/en/) Used for creating and editing vectorgraphics (as well as bitmap-art) such as the Enebog-logo.
 + [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsiveness and generating the image in the beginning of this document showing my website on different devices/screensizes.
 + [GitPod](https://www.gitpod.io/) GitPod has been used as a cloud based IDE from which code was commited and pushed to GitHub.
 + [GitHub:](https://github.com/) GitHub is used to store the code that has been pushed from GitPod.
@@ -117,13 +117,13 @@ A font-matching-tool has been used to test combinations of "header-fonts" and "p
   + the navigation links work and the user is directed to the correct sections of the page.
   + the navigation links change text colour when hovering over.
   + the external link in the about section opens in a new tab and that the address is correct.
-  + name, email and message is required to submit the form in the contact section.
-  + the email input field must contain @ symbol to submit the form in the contact section.
-  + the form submit button change text colour when hovering over.
   + “zoom on hover” work in gallery-section.
 + Manual testing has been carried out on:
-  + Different browsers: Chrome and Firefox (Safari as not been tested) where a a bug in the form element was appearing in Firefox.
+  + Different browsers: Except Chrome the website has also been tested in Firefox (Safari as not been tested) where a a bug in the form element was appearing.
   + Responsiveness using different standard screen sizes testing the responsive design.
+  + name, email and message is required to submit the form in the contact section.
+  + the email input field must contain @ symbol to submit the form in the contact section.
+  ![Large Device: "Form"-submit confirmation page.](assets/images/readme/form-submit-confirmation.jpg)
 
 ### Validator Testing
 + All code was tested for syntactical errors with perfect results using official validators:
@@ -147,7 +147,7 @@ A font-matching-tool has been used to test combinations of "header-fonts" and "p
 + Remaining bugs:
   + The form flows down into the footer (or vice versa) in Firefox.
   + The "click-anywhere-on-page"-link on the display page has stopped working in the last versions.
-  + An hour before submission the artist portrait was no longer horisontaly centered.
+  + To late before the submission the artist portrait was discovered to be no longer horisontaly centered.
 
 ### Deployment
 + Go to your GitHub repo and choose the **settings** tab and then **Pages** on the left-hand sidebar and then make sure that the following is set as below:
@@ -157,6 +157,7 @@ A font-matching-tool has been used to test combinations of "header-fonts" and "p
 + Click save and go back to the **Code** tab and wait a few minutes for the build to finish. Make sure that you do not push to the repo during this time since this will cause the rebuild to fail.
 + Go to the **github-pages** under the **Deployment** section, further down on the right hand side.
 + Now you can see the URL to your deployed site under **Active deployments**. Click on the URL to go to your site. The URL will follow the following format: your-username.github.io/your project name/
+
 ![Deployment](assets/images/readme/deployment.jpg)
 
 ## Credits
@@ -174,11 +175,11 @@ A font-matching-tool has been used to test combinations of "header-fonts" and "p
 
 ### Earlier implementation
 + The Features and Design sections has been based on Jesse James Garretts five pillars of webdesign.
-+ Enebog art has already been implemented in a Squarespace-template-version. This new version has a changed design and it improves on weak points of this first version:
++ Enebog art has already been implemented in a Squarespace-template-version. This new version has a changed design and it improves on weak points of the Squarespace-version:
   + The all-important art was not displayed directly upfront but one or two clicks away.
-  + Even after one click all of the art was not displayed in one single grid but required the user to step through each gallery one picture at a time.
+  + Even after one click all of the art was not displayed in a single grid but required the user to step through each gallery one picture at a time.
   + The about and contact sections was separated albeit they fitted well together.
 
 ### Acknowledgement
-A special thanks to my mentor at Code Institute for his nie ways and for most helpful input!
+A special thanks to my mentor at Code Institute for his nice ways and for most helpful input!
 
