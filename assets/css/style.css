@@ -188,11 +188,12 @@ main {
     padding-top: 138px;
 }
 
-#about {
-    width: 100%;
-    background-color: black;
-    padding-top: 138px;
-}
+
+
+
+
+
+
 
 .light-on-black-background {
     color: #d3d3d3 !important;
@@ -216,24 +217,47 @@ form>h2 {
     align-items: center;
 }
 
-#about-text {
-    width: 60vw;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    padding-left: 0px;
-    padding-right: 30px;
-    padding-top: 20px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    flex: 1;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-    text-justify: inter-word;
+
+
+
+
+#about {
+    width: 100%;
+    background-color: black;
+    padding-top: 138px;  /* This spacing looks good for the header */
+    margin-left: auto;   /* Centers the section */
+    margin-right: auto;  /* Centers the section */
 }
+
+#about-text {
+    width: 80vw;                  /* Adjust width to 80% of viewport width for better responsiveness */
+    max-width: 700px;              /* Cap the width for larger screens */
+    margin-left: auto;             /* Center the text container */
+    margin-right: auto;            /* Center the text container */
+    text-align: justify;           /* Align the text for better readability */
+    text-justify: inter-word;      /* Adjust word spacing for justified text */
+    padding-left: 20px;            /* Add a little space from the left */
+    padding-right: 20px;           /* Add a little space from the right */
+    border: none;                  /* Remove any unnecessary borders */
+}
+
+#about-portrait {
+    text-align: center;            /* Center the portrait image */
+    margin-top: 20px;               /* Spacing between text and image */
+}
+
+#about-portrait img {
+    width: 100%;                   /* Ensure the image fits within its container */
+    max-width: 300px;               /* Set a max width for images */
+    height: auto;                  /* Maintain aspect ratio */
+    margin-top: 10px;               /* Small top margin */
+}
+
+
+
+
+
+
 
 /* Centering the portrait image underneath the text */
 #about-portrait {
@@ -583,4 +607,68 @@ p.gallery-display {
 html, body {
     width: 100%;
     overflow-x: hidden;  /* Prevent horizontal scrolling */
+}
+
+
+
+
+
+
+/* Adjust About Section Text to expand more gradually on smaller screens */
+#about-text {
+    width: 80vw;                      /* Let the text use 80% of the viewport width by default */
+    max-width: 700px;                  /* Cap the width to 700px for larger screens */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Adjust Form Section */
+#message-form {
+    width: 80vw;                      /* Make form width the same as the about text */
+    max-width: 700px;                  /* Limit the form width to 700px */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+/* White splash image above the text, with an appropriate size */
+#about img.right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;                       /* Set splash size to a visible and reasonable width */
+    margin-top: 20px;                   /* Space it from the text */
+    margin-bottom: 20px;
+}
+
+/* Media Query for Smaller Devices - Switch to wider text after 480px */
+@media screen and (max-width: 480px) {
+    #about-text {
+        width: 90vw;                   /* Allow text to use more space on smaller screens */
+    }
+
+    #message-form {
+        width: 90vw;                   /* Same for the form */
+    }
+
+    #about img.right {
+        width: 120px;                  /* Increase splash image size for small screens */
+    }
+}
+
+/* Adjustments for very narrow screens like mobile, with more balance */
+@media screen and (max-width: 376px) {
+    #about-text {
+        width: 95vw;                   /* Full width for extra small screens */
+    }
+
+    #message-form {
+        width: 95vw;                   /* Same for form */
+    }
+
+    #about img.right {
+        width: 150px;                  /* Increase splash size a little more for very small screens */
+    }
 }
