@@ -235,11 +235,16 @@ form>h2 {
     text-justify: inter-word;
 }
 
+/* Centering the portrait image underneath the text */
 #about-portrait {
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 0%;
-    width: 250px;
+    text-align: center; /* Center-align the image */
+    margin-top: 20px;   /* Add some spacing between the text and the image */
+}
+
+#about-portrait img {
+    width: auto;       /* Let the image width adjust automatically */
+    max-width: 100%;    /* Make sure the image doesn't exceed the container width */
+    height: auto;      /* Maintain aspect ratio */
 }
 
 .right {
@@ -519,4 +524,63 @@ textarea {
 p.gallery-display {
     text-align: justify;
     text-justify: inter-word;
+}
+
+
+
+
+
+
+
+
+/* Old CSS - Your previous styles */
+/* ... */
+
+/* Remove the old gallery and image styles */
+
+/* New CSS - Add these rules after all existing styles */
+
+.gallery {
+    width: 100%;               /* Make sure the gallery takes up the full width */
+    margin-left: auto;         /* Center the gallery */
+    margin-right: auto;        /* Center the gallery */
+    padding: 0;                /* Remove any padding */
+    column-count: 1;           /* One column when on narrow screens */
+    column-gap: 0;             /* No gap between columns */
+    text-align: center;        /* Center the content inside */
+}
+
+/* Handling responsive breakpoints */
+@media screen and (max-width: 576px) {
+    /* Ensure images inside gallery take full width */
+    .gallery img {
+        width: 100%;               /* Make sure images fill the width of the gallery container */
+        height: auto;              /* Maintain aspect ratio */
+        max-width: 100%;           /* Prevent image from overflowing */
+    }
+
+    /* Remove any unwanted horizontal overflow */
+    body {
+        overflow-x: hidden;         /* Prevent horizontal scrolling on small devices */
+    }
+}
+
+/* For the single-column case when images should adjust to the width */
+@media screen and (max-width: 768px) {
+    .gallery {
+        column-count: 1;           /* One column in mobile view */
+        column-gap: 0;             /* No gap between columns */
+    }
+
+    .gallery img {
+        width: 100%;               /* Make images fill the width */
+        height: auto;              /* Maintain aspect ratio */
+        max-width: 100%;           /* Ensure images don't overflow */
+    }
+}
+
+/* Ensuring no horizontal overflow on smaller devices */
+html, body {
+    width: 100%;
+    overflow-x: hidden;  /* Prevent horizontal scrolling */
 }
