@@ -71,9 +71,9 @@ h2 {
 }
 
 #menu {
-        list-style: none;
-        margin-top: 20px;
-        margin-left: 30px;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 #menu>li {
@@ -114,7 +114,7 @@ nav {
 main {
     /* make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 108px
+    margin-top: 90px
 }
 
 /*--------------- HERO SECTION -----------------*/
@@ -126,7 +126,7 @@ main {
     /* background: url("../images/heroimages/heroimage-mystical-forrest-1748.jpg") no-repeat center center/cover; */
     /* background: url("../images/heroimages/heroimage-path-to-the-horizon-2000.jpg") no-repeat center center/cover;*/
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 #cover-text {
@@ -535,11 +535,15 @@ body {
     }
 
     .gallery {
-        column-count: 1;           /* Single column layout */
-        margin-left: auto;         /* Automatically adjust left margin */
-        margin-right: auto;        /* Automatically adjust right margin */
-        width: 95%;                /* Set a width that allows it to be centered */
-    }    
+        column-count: 1;
+        /* Single column layout */
+        margin-left: auto;
+        /* Automatically adjust left margin */
+        margin-right: auto;
+        /* Automatically adjust right margin */
+        width: 95%;
+        /* Set a width that allows it to be centered */
+    }
 
     #message-form {
         /* width: 95vw;*/
@@ -548,8 +552,10 @@ body {
         /* Form width adjustment for smaller screens */
         /* padding: 20px;
         /* Adjust padding for better spacing */
-        margin-left: auto;  /* Centers the form horizontally */
-        margin-right: auto;  /* Centers the form horizontally */
+        margin-left: auto;
+        /* Centers the form horizontally */
+        margin-right: auto;
+        /* Centers the form horizontally */
     }
 
     /* width: 95vw;*/
@@ -571,6 +577,7 @@ body {
 /*-----------------------------------------------------------------------*/
 
 @media screen and (min-width: 576px) {
+
     /* Media Queries */
     .gallery {
         column-count: 2;
@@ -627,16 +634,10 @@ body {
         display: none;
     }
 
-    /* Main content */
-    main {
-        /* Push main content down to accomodate larger header */
-        margin-top: 133.44px;
-    }
-
     .gallery {
         column-count: 2;
         column-gap: 5vw;
-        }
+    }
 
     p.gallery-display {
         max-width: 450px;
@@ -711,10 +712,10 @@ body {
         display: none;
     }
 
-    /* Main content */
-    main {
-        margin-top: 133.44px;
-    }
+
+
+
+
 
     /* Form hover effects */
     .text-input:hover {
@@ -765,8 +766,10 @@ body {
         color: #ffffff;
         padding: 20px;
         box-sizing: border-box;
-        margin-left: auto;  /* Centers the form horizontally */
-        margin-right: auto;  /* Centers the form horizontally */
+        margin-left: auto;
+        /* Centers the form horizontally */
+        margin-right: auto;
+        /* Centers the form horizontally */
     }
 }
 
@@ -776,6 +779,11 @@ body {
 /*-----------------------------------------------------------------------*/
 
 @media screen and (min-width: 1200px) {
+    /* Main content */
+    main {
+        margin-top: 133.44px;
+    }
+
     .gallery {
         column-count: 3;
         column-gap: 10vw;
