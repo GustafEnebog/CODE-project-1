@@ -570,6 +570,13 @@ body {
         overflow-x: hidden;
         /* Prevent horizontal scrolling */
     }
+
+        #send-button, #postal-adress {
+          float: none;
+          width: 100%; /* You can adjust this if needed */
+          text-align: center; /* Centers the content if you want */
+          margin: 10px 0; /* Adds some space between them */
+        }
 }
 
 /*-----------------------------------------------------------------------*/
