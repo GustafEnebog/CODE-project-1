@@ -148,6 +148,14 @@ main {
     color: #ffffff;
 }
 
+#cover-text-large {
+    padding-right: 10px;
+}
+
+#cover-text-small {
+    padding-right: 10px;
+}
+
 /*--------------- 3W SCHOOL CODE SNITPPET FOR "ZOOM ON HOVER" MODIFIED TO THIS SITE" -----------------*/
 * {
     box-sizing: border-box;
@@ -472,7 +480,8 @@ h3.gallery-display {
 }
 
 .vertical-slider {
-    z-index: 99;         /* Set this to a value higher than the header's z-index (which is 98) */
+    z-index: 99;
+    /* Set this to a value higher than the header's z-index (which is 98) */
 }
 
 body {
@@ -555,14 +564,23 @@ body {
         /* Prevent horizontal scrolling */
     }
 
-        #send-button, #postal-adress {
-          float: none;
-          width: 100%; /* You can adjust this if needed */
-          text-align: center; /* Centers the content if you want */
-          margin: 10px 0; /* Adds some space between them */
-        }
+    #send-button,
+    #postal-adress {
+        float: none;
+        width: 100%;
+        /* You can adjust this if needed */
+        text-align: center;
+        /* Centers the content if you want */
+        margin: 10px 0;
+        /* Adds some space between them */
+    }
+
+    #cover-text {
+        padding-left: 30px;
+    }
 }
 
+cover-text-large
 /*-----------------------------------------------------------------------*/
 /*-------- Mobile (Large) or Landscape phones (576px and up) ------------*/
 /*-----------------------------------------------------------------------*/
@@ -770,6 +788,7 @@ body {
 /*-----------------------------------------------------------------------*/
 
 @media screen and (min-width: 1200px) {
+
     /* Main content */
     main {
         margin-top: 133.44px;
